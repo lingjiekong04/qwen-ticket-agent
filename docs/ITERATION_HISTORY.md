@@ -21,6 +21,25 @@
 
 证据：[训练配置](../configs/ticket_policy_retention_train_v1_2.yaml)、[训练验证记录](../results/training/train/verification.json)、[数据清单](../data/ticket_policy_retention_train_release_v1_1/manifest.json)。完整重训所需资源和历史前置产物仍有缺口，见[训练与资源交付](TRAINING_AND_ASSETS.md)。
 
+### 微调版本与实验分支
+
+微调适配器改变模型参数，工具执行层改变普通程序逻辑；两者有独立版本。下面按模型侧的主要链路区分：
+
+| 模型侧版本 | 改动与用途 | 最终是否采用 |
+|---|---|---|
+| Hermes 工具调用 LoRA（r8） | 提供通用工具调用训练起点 | 属于初始化链路 |
+| ticket-sft-v3（Hermes r8 工单续训） | 从 Hermes LoRA 继续学习工单任务 | 是 retention 训练的直接初始化来源 |
+| retention v1.1 | 建立中英工单策略与能力保持训练配方 | 当前系统未加载此版本 |
+| retention v1.2 | 保持主要训练配方，建立独立训练产物与更明确的 GPU/环境/结果核验 | 是最终冻结适配器 |
+| repair-lr2p5e-8 / repair-lr5e-8 | 从 retention v1.2 出发，对比两种低学习率修复 | 是旁支，最终未采用 |
+| answer-contract-lr1e-7 | 从 retention v1.2 出发，修复回答格式、完整性与证据表达 | 是旁支，最终未采用 |
+
+核对原配置可见，retention v1.1 与 v1.2 的主要训练超参数、初始化适配器和训练数据保持一致，配置中的输出目录不同；v1.2 的执行代码另外绑定物理 GPU2、检查 UUID/环境并独立核验训练结果。这里将其作为训练工程差异记录，不声称 v1.2 因某个新算法而天然优于 v1.1。
+
+学习率修复和回答契约修复属于相同父适配器上的候选实验，而非执行层 v1.3-v1.7 的前后继权重。最终系统继续使用 retention v1.2，以便对运行时变化作同权重比较。
+
+本页对旁支作历史说明，公开快照没有完整分发其权重和所有评测轨迹，因此不据此给出旁支模型质量排名。训练脚本、交付执行包或预检编号的变化，也不自动代表模型能力版本变化。
+
 ## 阶段二：先把失败定位清楚
 
 面对低完成率，按以下层次拆分，而不是只看一个总分：
@@ -42,6 +61,8 @@
 
 | 执行层 | 触发问题 | 关键改进 | 源码 |
 |---|---|---|---|
+| controller v1.1 | 需要基础调用、状态和答复约束 | 建立基础执行检查 | [基础控制器](../extensions/ticket_runtime_controller_v1_1/core.py) |
+| contract guard v1 | 读取和状态更新中的目标偏离、额外变更、答复证据问题 | 可信目标绑定和证据释放，初始覆盖两个工具 | [初始契约守卫](../extensions/ticket_runtime_contract_guard_v1/core.py) |
 | contract guard v1.1 | 错误目标、身份、条件或不可靠的最终陈述 | 绑定可信契约、检查调用范围、基于后端证据渲染 | [守卫](../extensions/ticket_runtime_contract_guard_v1_1/core.py) |
 | transaction recovery v1.2 | 事务被拒后未能继续完成任务 | 保持拒绝事务无提交，进入受控恢复 | [事务恢复](../extensions/ticket_runtime_transaction_recovery_v1_2/core.py) |
 | blocked action recovery v1.3 | 错误负责人、身份或扩大搜索条件被拦截后卡住 | 原调用先拦截，再恢复可信目标 | [拦截后恢复](../extensions/ticket_runtime_blocked_action_recovery_v1_3/core.py) |
