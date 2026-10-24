@@ -1,0 +1,217 @@
+{
+  "passed": true,
+  "stage": "CPU_offline_integration_release_candidate_nonlive_acceptance",
+  "release_id": "ticket-runtime-offline-rc-v1",
+  "runtime_revision": "trusted_completion_v1.7",
+  "scenarios": 11,
+  "scenarios_passed": 11,
+  "tools_covered": [
+    "assign_ticket",
+    "create_ticket",
+    "get_kb_article",
+    "get_ticket",
+    "lookup_user",
+    "search_kb",
+    "search_tickets",
+    "update_ticket_status"
+  ],
+  "direct_paths": 8,
+  "recovery_paths": 3,
+  "recovery_paths_passed": 3,
+  "results": [
+    {
+      "scenario_id": "direct-get_ticket",
+      "operation": "get_ticket",
+      "checks": {
+        "completed": true,
+        "termination": true,
+        "invalid_outputs": true,
+        "blocked_actions_reaching_backend": true,
+        "final_source": true,
+        "recovery_kind": true,
+        "model_rounds": true
+      },
+      "passed": true,
+      "response_sha256": "45a0118ac756f168e115c807714c191a0ca830ad512282ff299620d0c8458074"
+    },
+    {
+      "scenario_id": "direct-update_ticket_status",
+      "operation": "update_ticket_status",
+      "checks": {
+        "completed": true,
+        "termination": true,
+        "invalid_outputs": true,
+        "blocked_actions_reaching_backend": true,
+        "final_source": true,
+        "recovery_kind": true,
+        "model_rounds": true
+      },
+      "passed": true,
+      "response_sha256": "ac0ea2fa8deb66431406fa67fcb1ab8a95ef36075fed6f95b932cf23d43c7e9d"
+    },
+    {
+      "scenario_id": "direct-assign_ticket",
+      "operation": "assign_ticket",
+      "checks": {
+        "completed": true,
+        "termination": true,
+        "invalid_outputs": true,
+        "blocked_actions_reaching_backend": true,
+        "final_source": true,
+        "recovery_kind": true,
+        "model_rounds": true
+      },
+      "passed": true,
+      "response_sha256": "8d7e7b373b09e966ec7561e3bc2ab544f1ef7c76e4cea75114d20ed96e206756"
+    },
+    {
+      "scenario_id": "direct-lookup_user",
+      "operation": "lookup_user",
+      "checks": {
+        "completed": true,
+        "termination": true,
+        "invalid_outputs": true,
+        "blocked_actions_reaching_backend": true,
+        "final_source": true,
+        "recovery_kind": true,
+        "model_rounds": true
+      },
+      "passed": true,
+      "response_sha256": "21fa18389b69991ea376e618e85ba7c1aa478092902ec0dc4a77d6f503424bc9"
+    },
+    {
+      "scenario_id": "direct-search_tickets",
+      "operation": "search_tickets",
+      "checks": {
+        "completed": true,
+        "termination": true,
+        "invalid_outputs": true,
+        "blocked_actions_reaching_backend": true,
+        "final_source": true,
+        "recovery_kind": true,
+        "model_rounds": true
+      },
+      "passed": true,
+      "response_sha256": "8aec733e25433fc8986a7f62f8a69d482b4f342718e94ca30a7e6eb0bf4aa3a3"
+    },
+    {
+      "scenario_id": "direct-create_ticket",
+      "operation": "create_ticket",
+      "checks": {
+        "completed": true,
+        "termination": true,
+        "invalid_outputs": true,
+        "blocked_actions_reaching_backend": true,
+        "final_source": true,
+        "recovery_kind": true,
+        "model_rounds": true
+      },
+      "passed": true,
+      "response_sha256": "5d7ff3c29cc03ceb181056eda71732ecd0e8bb39be5084b0e62c372b12c5e087"
+    },
+    {
+      "scenario_id": "direct-search_kb",
+      "operation": "search_kb",
+      "checks": {
+        "completed": true,
+        "termination": true,
+        "invalid_outputs": true,
+        "blocked_actions_reaching_backend": true,
+        "final_source": true,
+        "recovery_kind": true,
+        "model_rounds": true
+      },
+      "passed": true,
+      "response_sha256": "d6938120c5f5862e7b33b9e061ba0f024d5c849167ce1a619b92a1a649d83ad6"
+    },
+    {
+      "scenario_id": "direct-get_kb_article",
+      "operation": "get_kb_article",
+      "checks": {
+        "completed": true,
+        "termination": true,
+        "invalid_outputs": true,
+        "blocked_actions_reaching_backend": true,
+        "final_source": true,
+        "recovery_kind": true,
+        "model_rounds": true
+      },
+      "passed": true,
+      "response_sha256": "61b1b14f2f430b3fc2ceab1a6e7014baaef4a03404c6c499fa4956f910b1eed3"
+    },
+    {
+      "scenario_id": "recovery-search_tickets",
+      "operation": "search_tickets",
+      "checks": {
+        "completed": true,
+        "termination": true,
+        "invalid_outputs": true,
+        "blocked_actions_reaching_backend": true,
+        "final_source": true,
+        "recovery_kind": true,
+        "model_rounds": true
+      },
+      "passed": true,
+      "response_sha256": "dec9ee129c3170b55024ef0e4cf08bb06a02875944dceb61d37cbb1da87e897e"
+    },
+    {
+      "scenario_id": "recovery-update_ticket_status",
+      "operation": "update_ticket_status",
+      "checks": {
+        "completed": true,
+        "termination": true,
+        "invalid_outputs": true,
+        "blocked_actions_reaching_backend": true,
+        "final_source": true,
+        "recovery_kind": true,
+        "model_rounds": true
+      },
+      "passed": true,
+      "response_sha256": "ca0416180e7f78e881152ad10fbf2bf6d90668851279307bba04ed9fc0e89c89"
+    },
+    {
+      "scenario_id": "recovery-create_ticket",
+      "operation": "create_ticket",
+      "checks": {
+        "completed": true,
+        "termination": true,
+        "invalid_outputs": true,
+        "blocked_actions_reaching_backend": true,
+        "final_source": true,
+        "recovery_kind": true,
+        "model_rounds": true
+      },
+      "passed": true,
+      "response_sha256": "2db85ee936331662f01a4132fe14a96a78adc742b87193e07bd5043263ed615f"
+    }
+  ],
+  "rollback": {
+    "passed": true,
+    "checks": {
+      "target_is_manual_safe_stop": true,
+      "request_stopped": true,
+      "no_backend_events": true,
+      "no_backend_state": true,
+      "manual_review_required": true,
+      "live_tools_zero": true
+    },
+    "event": {
+      "action": "rollback",
+      "from": "trusted_completion_v1.7",
+      "to": "manual_safe_stop_v1",
+      "reason": "offline acceptance rollback rehearsal",
+      "sha256": "f2727788146b57a98dec2de5dff7b20796f108559b30d70915b87477a8196cb5"
+    }
+  },
+  "startup_config_validated": true,
+  "interface_adapter_validated": true,
+  "backend": "in_memory_only",
+  "provider": "scripted_cpu_acceptance",
+  "model_loaded": false,
+  "gpu_initialized": false,
+  "training_started": false,
+  "network_used": false,
+  "live_tools_executed": 0,
+  "deployment_authorized": false,
+  "scope": "offline integration packaging and in-memory acceptance only; no live-system claim"
+}

@@ -1,0 +1,13 @@
+# Fixed core stack for the v0.9.3 baseline, Python 3.11 / Linux.
+# Freeze the complete resolved environment after the first successful server run.
+torch==2.6.0
+torchvision==0.21.0
+torchaudio==2.6.0
+transformers==4.51.3
+tokenizers==0.21.1
+datasets==3.6.0
+accelerate==1.7.0
+peft==0.15.2
+trl==0.9.6
+numpy==1.26.4
+pydantic==2.10.6

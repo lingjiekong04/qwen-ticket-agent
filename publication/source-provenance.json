@@ -1,0 +1,1028 @@
+{
+  "archive_sha256": "6cdab2dac967fdd22c833cd56793917e9392bd3a99fe4fcd9a1ec9bc8fa83069",
+  "copied_files": {
+    "configs/ticket_interactive_demo_v1.json": {
+      "source_path": "configs/ticket_interactive_demo_v1.json",
+      "sha256": "f5049fbf29bc8c4c856bb66d078452253987d9bf9bddd30294e460aab529be0c",
+      "bytes": 1713
+    },
+    "configs/ticket_policy_retention_train_v1_2.yaml": {
+      "source_path": "configs/ticket_policy_retention_train_v1_2.yaml",
+      "sha256": "1e81cffc0ef3602d04819a7e0ffbde7a788935da75e630263cec2b51b2eac069",
+      "bytes": 1744
+    },
+    "constraints.txt": {
+      "source_path": "constraints.txt",
+      "sha256": "0c2fe1cf98d68a40c3e7682d223edcfe86c893e62974d6caa70a8bbec9829103",
+      "bytes": 327
+    },
+    "data/ticket_interactive_demo_v1/fixture.json": {
+      "source_path": "data/ticket_interactive_demo_v1/fixture.json",
+      "sha256": "469b20b4f61d2746941a9f02af3032b7c84cfb55eb2589b13fb901b2c6df54eb",
+      "bytes": 1436
+    },
+    "data/ticket_policy_retention_train_release_v1_1/coverage.json": {
+      "source_path": "data/ticket_policy_retention_train_release_v1_1/coverage.json",
+      "sha256": "81df8b1e677605bf8e8eb900baaae06a247cf207f947dfb2e3014eff29dc9f46",
+      "bytes": 5823
+    },
+    "data/ticket_policy_retention_train_release_v1_1/dataset_info.json": {
+      "source_path": "data/ticket_policy_retention_train_release_v1_1/dataset_info.json",
+      "sha256": "d09fc64ceaee361d4760e76924e539a88ae51cc5e837e38ba657a6d5dd6dc9b9",
+      "bytes": 457
+    },
+    "data/ticket_policy_retention_train_release_v1_1/isolation.json": {
+      "source_path": "data/ticket_policy_retention_train_release_v1_1/isolation.json",
+      "sha256": "f110dffe3d3a3a722e3d7fae70045f46ac464de845796f64113b6ef7947d5e07",
+      "bytes": 676
+    },
+    "data/ticket_policy_retention_train_release_v1_1/manifest.json": {
+      "source_path": "data/ticket_policy_retention_train_release_v1_1/manifest.json",
+      "sha256": "171532e04b1ac8cc229ea11c476590b2a44dccdca0bd23d4c8d40384ea497885",
+      "bytes": 11760
+    },
+    "data/ticket_policy_retention_train_release_v1_1/token-audit.json": {
+      "source_path": "data/ticket_policy_retention_train_release_v1_1/token-audit.json",
+      "sha256": "896b883ab071049316d763575d01f46a3ee9e48eec72aa08a62c0b161218a0e4",
+      "bytes": 5078
+    },
+    "data/ticket_runtime_prospective_holdout_v6/admission.json": {
+      "source_path": "data/ticket_runtime_prospective_holdout_v6/admission.json",
+      "sha256": "159a978dff23de216f9cadfa13c00fb73aa9446f4f7a4c256b2f2caa338519a6",
+      "bytes": 791
+    },
+    "data/ticket_runtime_prospective_holdout_v6/isolation.json": {
+      "source_path": "data/ticket_runtime_prospective_holdout_v6/isolation.json",
+      "sha256": "a2fa5ebae4525f1a66444788eddc0434a5cb63f3077ed78d98533502223408d1",
+      "bytes": 1844
+    },
+    "data/ticket_runtime_prospective_holdout_v6/manifest.json": {
+      "source_path": "data/ticket_runtime_prospective_holdout_v6/manifest.json",
+      "sha256": "43844be7369b34cc5405ed796e68d6b27f04df0286ebb1efc343db946dcde96b",
+      "bytes": 1863
+    },
+    "data/ticket_runtime_prospective_holdout_v6/oracle.json": {
+      "source_path": "data/ticket_runtime_prospective_holdout_v6/oracle.json",
+      "sha256": "faafa08a1abb52281c952b797b28cb696417157d5b3e7924af53d6be392907a5",
+      "bytes": 122263
+    },
+    "data/ticket_runtime_prospective_holdout_v6/tasks.json": {
+      "source_path": "data/ticket_runtime_prospective_holdout_v6/tasks.json",
+      "sha256": "3fc6ce390f28538a3d3d3d078e25093d5b4201bca8101093f9caedf5f43c2a94",
+      "bytes": 584284
+    },
+    "extensions/ticket_agent_v1/ticket_env.py": {
+      "source_path": "extensions/ticket_agent_v1/ticket_env.py",
+      "sha256": "1f58a8546fd52207a3b70836f8c532dafbec55e5cdb18c0a5c2fd5728e0f368a",
+      "bytes": 13571
+    },
+    "extensions/ticket_agent_v2/agent.py": {
+      "source_path": "extensions/ticket_agent_v2/agent.py",
+      "sha256": "8c1c8acc845d29f4588768a074e964f714eca64c019e2b6a6ba748962022eba8",
+      "bytes": 22494
+    },
+    "extensions/ticket_interactive_demo_v1/__init__.py": {
+      "source_path": "extensions/ticket_interactive_demo_v1/__init__.py",
+      "sha256": "89e5f8e2a65d0ded923ee77bd136122f4257e49bab60b2ff30bb43eeb23d628e",
+      "bytes": 68
+    },
+    "extensions/ticket_interactive_demo_v1/bindings.json": {
+      "source_path": "extensions/ticket_interactive_demo_v1/bindings.json",
+      "sha256": "49a65b929a2d5eddb95eaf615e998f72c68bd625590853c53c7a94c74e99e4c1",
+      "bytes": 4534
+    },
+    "extensions/ticket_interactive_demo_v1/core.py": {
+      "source_path": "extensions/ticket_interactive_demo_v1/core.py",
+      "sha256": "a81ca38ad3f9c9cda4910c6bb364d2d0cbab92153be91adeab1adafdab2fede1",
+      "bytes": 14471
+    },
+    "extensions/ticket_interactive_demo_v1/provider.py": {
+      "source_path": "extensions/ticket_interactive_demo_v1/provider.py",
+      "sha256": "8824b8059573433ea689e1ad588a03d0abc960adc930fa252d17359d11632679",
+      "bytes": 5562
+    },
+    "extensions/ticket_interactive_demo_v1/server.py": {
+      "source_path": "extensions/ticket_interactive_demo_v1/server.py",
+      "sha256": "71510a9e2ea3583e88a0a347d5d0bc1e648c0147fa092145e85123a9abe6040d",
+      "bytes": 4474
+    },
+    "extensions/ticket_interactive_demo_v1/tests.py": {
+      "source_path": "extensions/ticket_interactive_demo_v1/tests.py",
+      "sha256": "00ac42f04df913e8307afb7fe54fd095698fc871ba2944d3e0c37d1270c5d390",
+      "bytes": 9902
+    },
+    "extensions/ticket_interactive_demo_v1/web.html": {
+      "source_path": "extensions/ticket_interactive_demo_v1/web.html",
+      "sha256": "0adc1989806dc9c08f2d0825079dd1a329ff20538f7d37edfcac8c75a5930295",
+      "bytes": 11764
+    },
+    "extensions/ticket_policy_audit_v1/core.py": {
+      "source_path": "extensions/ticket_policy_audit_v1/core.py",
+      "sha256": "63ab63a027487b280d15dbb3ba54431f311e1fbcca65df25c62180b41aa248ce",
+      "bytes": 11672
+    },
+    "extensions/ticket_policy_audit_v1/run.py": {
+      "source_path": "extensions/ticket_policy_audit_v1/run.py",
+      "sha256": "6ab3e95b39c4d809ecc3008fa3c0f931b781567478134052e9fc9faea1790388",
+      "bytes": 19297
+    },
+    "extensions/ticket_policy_diagnostic_v1/core.py": {
+      "source_path": "extensions/ticket_policy_diagnostic_v1/core.py",
+      "sha256": "7c020fbfd5a5a3af084129057a1dae754caee40a29537e64b90035f7cb78bdbd",
+      "bytes": 9974
+    },
+    "extensions/ticket_policy_diagnostic_v1/run.py": {
+      "source_path": "extensions/ticket_policy_diagnostic_v1/run.py",
+      "sha256": "3cc63e8c0b710eeb913a079f09a04ad9f0dcd954452bb8ce824a33a343c0fd59",
+      "bytes": 9621
+    },
+    "extensions/ticket_policy_diagnostic_v1_1/core.py": {
+      "source_path": "extensions/ticket_policy_diagnostic_v1_1/core.py",
+      "sha256": "13764c3c1dd4b2660af6415f9b23458d1af0b29e98c080b142c42ea7949b2812",
+      "bytes": 3364
+    },
+    "extensions/ticket_policy_repair_build_v1/core.py": {
+      "source_path": "extensions/ticket_policy_repair_build_v1/core.py",
+      "sha256": "dedef9348295832e6a3a8fa7de578bedbf870454959958bc76ef4efd78757390",
+      "bytes": 12203
+    },
+    "extensions/ticket_policy_repair_build_v1/pipeline.py": {
+      "source_path": "extensions/ticket_policy_repair_build_v1/pipeline.py",
+      "sha256": "88f7150fd1fe6fdda2408dc003fba10174a2e126f136fbc582def69f62a85f64",
+      "bytes": 10030
+    },
+    "extensions/ticket_policy_repair_build_v1/remote.py": {
+      "source_path": "extensions/ticket_policy_repair_build_v1/remote.py",
+      "sha256": "7e1eb8e092dbbcfaf416ebcb6753e68b57a1c9b9e0a4f65d080f00a0082f63aa",
+      "bytes": 8652
+    },
+    "extensions/ticket_policy_repair_build_v1/validate.py": {
+      "source_path": "extensions/ticket_policy_repair_build_v1/validate.py",
+      "sha256": "acd790c1c7b109f087ad79dcb2777400f4e5388ce24e29757ef2866f3dc16f89",
+      "bytes": 12468
+    },
+    "extensions/ticket_policy_repair_build_v1/wording.py": {
+      "source_path": "extensions/ticket_policy_repair_build_v1/wording.py",
+      "sha256": "38cad3dd1e0a498e1baa4446f15276c3a6b7889eb12dc4dd3d40119d42f1ca55",
+      "bytes": 25686
+    },
+    "extensions/ticket_policy_repair_pilot_v1/core.py": {
+      "source_path": "extensions/ticket_policy_repair_pilot_v1/core.py",
+      "sha256": "afc366225c7533baa3a9bef1dcf2241255cb6c1c16209c3d445b99d1cf82fcd1",
+      "bytes": 19556
+    },
+    "extensions/ticket_policy_repair_pilot_v1/pipeline.py": {
+      "source_path": "extensions/ticket_policy_repair_pilot_v1/pipeline.py",
+      "sha256": "b6347f304542a3174d1995b9bbd8412e088eda4ae0f6c20ef735f9601e1f4707",
+      "bytes": 5696
+    },
+    "extensions/ticket_policy_repair_pilot_v1/validate.py": {
+      "source_path": "extensions/ticket_policy_repair_pilot_v1/validate.py",
+      "sha256": "8ef3a05fabc6ab645d490430b3f3f1b995538ab6ad673aaf879df73370d1dae9",
+      "bytes": 10342
+    },
+    "extensions/ticket_policy_repair_release_v1/core.py": {
+      "source_path": "extensions/ticket_policy_repair_release_v1/core.py",
+      "sha256": "8f1e0a8c5ba6e9d984faca515fadefcefb5fa569a94085062d1fd8bc83c420bf",
+      "bytes": 12820
+    },
+    "extensions/ticket_policy_repair_training_plan_v1/core.py": {
+      "source_path": "extensions/ticket_policy_repair_training_plan_v1/core.py",
+      "sha256": "3e9b3c617553c548d0cdf1c80ad33a67ad85e6c52538c98c54ed100274c57175",
+      "bytes": 9749
+    },
+    "extensions/ticket_policy_repair_training_v1/evaluate.py": {
+      "source_path": "extensions/ticket_policy_repair_training_v1/evaluate.py",
+      "sha256": "a82c61c9b0b363bd200524c41cfd58c96485fa6a8083506ba131e6a957f9106f",
+      "bytes": 14003
+    },
+    "extensions/ticket_policy_repair_training_v1/support.py": {
+      "source_path": "extensions/ticket_policy_repair_training_v1/support.py",
+      "sha256": "943b26cbd6756b6d82d0f56c0bcd34a36d930569912ab7a925ebcc77447a404f",
+      "bytes": 12118
+    },
+    "extensions/ticket_policy_repair_training_v1/train.py": {
+      "source_path": "extensions/ticket_policy_repair_training_v1/train.py",
+      "sha256": "c805c33980c631f2f4249a5c04cf9687ddfebfa2a44a4dc3771b84ac16af4eed",
+      "bytes": 14146
+    },
+    "extensions/ticket_policy_retention_build_v1/core.py": {
+      "source_path": "extensions/ticket_policy_retention_build_v1/core.py",
+      "sha256": "861abffcbaf3ad38ea755b1f15a020b009d156d1427672927be682d35ce436c0",
+      "bytes": 35194
+    },
+    "extensions/ticket_policy_retention_build_v1/pipeline.py": {
+      "source_path": "extensions/ticket_policy_retention_build_v1/pipeline.py",
+      "sha256": "9844927f21a499f5dfda62ba0b8104d00dd9089325873e64960ab38db3f5ef26",
+      "bytes": 17549
+    },
+    "extensions/ticket_policy_retention_build_v1/remote.py": {
+      "source_path": "extensions/ticket_policy_retention_build_v1/remote.py",
+      "sha256": "d73b5e2e23ef3995267b75bbf3913b4ec75f0096d2339e4d1889b56f64c2bc2d",
+      "bytes": 13248
+    },
+    "extensions/ticket_policy_retention_build_v1/validate.py": {
+      "source_path": "extensions/ticket_policy_retention_build_v1/validate.py",
+      "sha256": "20c43cd583bfb2c4d348055979f737b646e74e9f2437ebac30bf9cd464890f81",
+      "bytes": 16704
+    },
+    "extensions/ticket_policy_retention_extension_v1/core.py": {
+      "source_path": "extensions/ticket_policy_retention_extension_v1/core.py",
+      "sha256": "a1287a927f86bf45c0265ead3dd46065c4803c073b1a1803ab97d6f0fbe75cdf",
+      "bytes": 13987
+    },
+    "extensions/ticket_policy_retention_extension_v1/pipeline.py": {
+      "source_path": "extensions/ticket_policy_retention_extension_v1/pipeline.py",
+      "sha256": "7a8d7dbb5c2cd6021a9cb5c87da0e53654a5e4213bd837f0629fc28305bcb843",
+      "bytes": 12747
+    },
+    "extensions/ticket_policy_retention_extension_v1/validate.py": {
+      "source_path": "extensions/ticket_policy_retention_extension_v1/validate.py",
+      "sha256": "c1aaf22de4dbbf2627f3796b4d164b92094b1979fe204451cc97cf7504b4b041",
+      "bytes": 11021
+    },
+    "extensions/ticket_policy_retention_extension_v1_1/core.py": {
+      "source_path": "extensions/ticket_policy_retention_extension_v1_1/core.py",
+      "sha256": "3034f73d719587a4e06fd70851478905aed49bf1e5ce1324145b2504bdd7fb30",
+      "bytes": 15265
+    },
+    "extensions/ticket_policy_retention_extension_v1_1/pipeline.py": {
+      "source_path": "extensions/ticket_policy_retention_extension_v1_1/pipeline.py",
+      "sha256": "0ff7a7fc8e4432cac0b0899d1f2308e743d8217335192015d5065db6bf7cd579",
+      "bytes": 15723
+    },
+    "extensions/ticket_policy_retention_extension_v1_1/validate.py": {
+      "source_path": "extensions/ticket_policy_retention_extension_v1_1/validate.py",
+      "sha256": "06d22c9e47e6dfee9820ce83b847b9d0b7a3f3a5d90683e034d406228fc5b6b9",
+      "bytes": 11905
+    },
+    "extensions/ticket_policy_retention_pilot_v1/core.py": {
+      "source_path": "extensions/ticket_policy_retention_pilot_v1/core.py",
+      "sha256": "a891e7947fcb711f551a06b42e11b1ad1c82d5633be9ddaa6dcffa0b67f986d8",
+      "bytes": 28250
+    },
+    "extensions/ticket_policy_retention_pilot_v1/pipeline.py": {
+      "source_path": "extensions/ticket_policy_retention_pilot_v1/pipeline.py",
+      "sha256": "94e47e721c589ffd8ad809dd3117f42feab1fdf9211da478b4896d668ea154be",
+      "bytes": 10049
+    },
+    "extensions/ticket_policy_retention_pilot_v1/validate.py": {
+      "source_path": "extensions/ticket_policy_retention_pilot_v1/validate.py",
+      "sha256": "240c9976f0ede3dd9493035c707f52289fc1a7eff08e76cfbdb59bb50db200a7",
+      "bytes": 14333
+    },
+    "extensions/ticket_policy_retention_release_v1/core.py": {
+      "source_path": "extensions/ticket_policy_retention_release_v1/core.py",
+      "sha256": "4018af439014e1ee5b2035951ac973313294996893f149e8deab46e8c5427e43",
+      "bytes": 15097
+    },
+    "extensions/ticket_policy_retention_release_v1_1/core.py": {
+      "source_path": "extensions/ticket_policy_retention_release_v1_1/core.py",
+      "sha256": "d22f2ef0b52cc7ca834441109b9c84aa8391b4b789710d0834c9aeb477190d4d",
+      "bytes": 13180
+    },
+    "extensions/ticket_policy_retention_training_v1_1/evaluate.py": {
+      "source_path": "extensions/ticket_policy_retention_training_v1_1/evaluate.py",
+      "sha256": "845b332bbb66135cb4172c357d3fb03cfdc34de034823c03d236249f59fa0109",
+      "bytes": 14338
+    },
+    "extensions/ticket_policy_retention_training_v1_1/support.py": {
+      "source_path": "extensions/ticket_policy_retention_training_v1_1/support.py",
+      "sha256": "1549a3d585fbf7a4dd18625fbcc26495e6acdcbc94c9c816cb3f758a69e7a270",
+      "bytes": 15595
+    },
+    "extensions/ticket_policy_retention_training_v1_1/targeted.py": {
+      "source_path": "extensions/ticket_policy_retention_training_v1_1/targeted.py",
+      "sha256": "6662a6ceb3757b6755b885c39c0cadf028aaffb891374f16e097f069f2af9444",
+      "bytes": 14845
+    },
+    "extensions/ticket_policy_retention_training_v1_1/train.py": {
+      "source_path": "extensions/ticket_policy_retention_training_v1_1/train.py",
+      "sha256": "af1cf2a192d45be46bf45c86f328274e341bad8416d1fd731a099bae165cea18",
+      "bytes": 8722
+    },
+    "extensions/ticket_policy_retention_training_v1_2/evaluate.py": {
+      "source_path": "extensions/ticket_policy_retention_training_v1_2/evaluate.py",
+      "sha256": "570a537d5edae000ecc4506bcd3786de126394ffc36c0792f4078f6fb792e92a",
+      "bytes": 14347
+    },
+    "extensions/ticket_policy_retention_training_v1_2/support.py": {
+      "source_path": "extensions/ticket_policy_retention_training_v1_2/support.py",
+      "sha256": "b0af739602a8d797dcdb9a6e9506584229d612c97274898df78cb2df9e5547fd",
+      "bytes": 19432
+    },
+    "extensions/ticket_policy_retention_training_v1_2/targeted.py": {
+      "source_path": "extensions/ticket_policy_retention_training_v1_2/targeted.py",
+      "sha256": "6662a6ceb3757b6755b885c39c0cadf028aaffb891374f16e097f069f2af9444",
+      "bytes": 14845
+    },
+    "extensions/ticket_policy_retention_training_v1_2/train.py": {
+      "source_path": "extensions/ticket_policy_retention_training_v1_2/train.py",
+      "sha256": "0f99e1f06b06c282c97f7acdb1252039f190546cd096e9c14bc8b2cd51543d4f",
+      "bytes": 8868
+    },
+    "extensions/ticket_runtime_blocked_action_recovery_v1_3/__init__.py": {
+      "source_path": "extensions/ticket_runtime_blocked_action_recovery_v1_3/__init__.py",
+      "sha256": "dc3fe5bb38d8ffd119676719dc20767b611ec54e78c1fa7e06e94aca60fd1ce5",
+      "bytes": 68
+    },
+    "extensions/ticket_runtime_blocked_action_recovery_v1_3/core.py": {
+      "source_path": "extensions/ticket_runtime_blocked_action_recovery_v1_3/core.py",
+      "sha256": "70aae82403935920f0d9d21898094499e7c716cd9c8b634e34a21fdcc05126cf",
+      "bytes": 10806
+    },
+    "extensions/ticket_runtime_blocked_action_recovery_v1_3/tests.py": {
+      "source_path": "extensions/ticket_runtime_blocked_action_recovery_v1_3/tests.py",
+      "sha256": "4037945630167e7d14db4614a74ad17e8ce325cb4f75616bef23c05681ab2256",
+      "bytes": 5301
+    },
+    "extensions/ticket_runtime_blocked_action_recovery_v1_4/__init__.py": {
+      "source_path": "extensions/ticket_runtime_blocked_action_recovery_v1_4/__init__.py",
+      "sha256": "5ccaf808aae7cb91e485f7360664801b4299e3e4345aa7b69b21693c66dad712",
+      "bytes": 134
+    },
+    "extensions/ticket_runtime_blocked_action_recovery_v1_4/core.py": {
+      "source_path": "extensions/ticket_runtime_blocked_action_recovery_v1_4/core.py",
+      "sha256": "ceb56ac97e1a39694addcaa71cb5a6009f8698bf2e7272502bac207d8fbfeda3",
+      "bytes": 10164
+    },
+    "extensions/ticket_runtime_blocked_action_recovery_v1_4/tests.py": {
+      "source_path": "extensions/ticket_runtime_blocked_action_recovery_v1_4/tests.py",
+      "sha256": "ecc6989f51bc476ccdaa1c11afaa52e59a2f9f099adc5589c484927bb2257db5",
+      "bytes": 4560
+    },
+    "extensions/ticket_runtime_contract_guard_integration_v1/__init__.py": {
+      "source_path": "extensions/ticket_runtime_contract_guard_integration_v1/__init__.py",
+      "sha256": "6cd2b383d5695575b5ebc1639238a2b8f379ff80121e897bf0112c4a68247887",
+      "bytes": 69
+    },
+    "extensions/ticket_runtime_contract_guard_integration_v1/core.py": {
+      "source_path": "extensions/ticket_runtime_contract_guard_integration_v1/core.py",
+      "sha256": "bfde04bfcbd53e627f555a816de6d04e91315d57494fc65da9383ee6af8f00b3",
+      "bytes": 19139
+    },
+    "extensions/ticket_runtime_contract_guard_integration_v1/tests.py": {
+      "source_path": "extensions/ticket_runtime_contract_guard_integration_v1/tests.py",
+      "sha256": "c729ef245f0461ca1e3eb9d953eb992635b7bcd1a4d1fc182508fb0c0911c3fc",
+      "bytes": 6277
+    },
+    "extensions/ticket_runtime_contract_guard_v1/__init__.py": {
+      "source_path": "extensions/ticket_runtime_contract_guard_v1/__init__.py",
+      "sha256": "aec67dc568b02c6118d1766f801d86f9e7c06b3d33e725e83559580bb4641a08",
+      "bytes": 62
+    },
+    "extensions/ticket_runtime_contract_guard_v1/core.py": {
+      "source_path": "extensions/ticket_runtime_contract_guard_v1/core.py",
+      "sha256": "bc4f506dee8897389d37c6abf057585e2b5cda1bb2ffde78b5c1ce8fd2492be8",
+      "bytes": 12677
+    },
+    "extensions/ticket_runtime_contract_guard_v1/tests.py": {
+      "source_path": "extensions/ticket_runtime_contract_guard_v1/tests.py",
+      "sha256": "f25f59e92981473cb2fac28cca85afa5342a193e50626706bfcaeacd75861784",
+      "bytes": 10490
+    },
+    "extensions/ticket_runtime_contract_guard_v1_1/__init__.py": {
+      "source_path": "extensions/ticket_runtime_contract_guard_v1_1/__init__.py",
+      "sha256": "79ca0279109e2d1868e48009a607d76f159a2130e4bc3ddb95b5e8060534bd1c",
+      "bytes": 69
+    },
+    "extensions/ticket_runtime_contract_guard_v1_1/core.py": {
+      "source_path": "extensions/ticket_runtime_contract_guard_v1_1/core.py",
+      "sha256": "db9630c246662baea0b3a81c342475142f88ddb0c4971681e8f61ba89c0f4260",
+      "bytes": 29095
+    },
+    "extensions/ticket_runtime_contract_guard_v1_1/tests.py": {
+      "source_path": "extensions/ticket_runtime_contract_guard_v1_1/tests.py",
+      "sha256": "9dbeec8221eee7d7984ea27b699246366936b7cdb803a251004c33447b0b1f6a",
+      "bytes": 10202
+    },
+    "extensions/ticket_runtime_controller_v1_1/__init__.py": {
+      "source_path": "extensions/ticket_runtime_controller_v1_1/__init__.py",
+      "sha256": "ad1f54082266f62b03fa35285bcf36169cdbacece1eea2503ff4ccfa1a072e87",
+      "bytes": 60
+    },
+    "extensions/ticket_runtime_controller_v1_1/core.py": {
+      "source_path": "extensions/ticket_runtime_controller_v1_1/core.py",
+      "sha256": "be3622b92553bc15550949f7e035e5e9a5679e1bf3c430fa153735cc1b6ee3f2",
+      "bytes": 25895
+    },
+    "extensions/ticket_runtime_controller_v1_1/tests.py": {
+      "source_path": "extensions/ticket_runtime_controller_v1_1/tests.py",
+      "sha256": "5b1195f01e7118039b811f29b4eb0ab07f9d245d4247fe1ff12016e04c9a5f34",
+      "bytes": 6782
+    },
+    "extensions/ticket_runtime_controller_v1_1_design/__init__.py": {
+      "source_path": "extensions/ticket_runtime_controller_v1_1_design/__init__.py",
+      "sha256": "85b860bad1dfdb8d6512d850a94fb74ce9ee7df3045e520fc491eb0d0ab57c84",
+      "bytes": 59
+    },
+    "extensions/ticket_runtime_controller_v1_1_design/core.py": {
+      "source_path": "extensions/ticket_runtime_controller_v1_1_design/core.py",
+      "sha256": "312b9ab22b46f2bae620ec2d197619d3f4ac7d2accc57296700da05a01cb4d3c",
+      "bytes": 13135
+    },
+    "extensions/ticket_runtime_controller_v1_1_design/tests.py": {
+      "source_path": "extensions/ticket_runtime_controller_v1_1_design/tests.py",
+      "sha256": "a51526e772280ebefb41eb4fc39f082a21d16ac741eb8fe86097de39f5be7f6d",
+      "bytes": 1937
+    },
+    "extensions/ticket_runtime_evidence_completion_v1_5/__init__.py": {
+      "source_path": "extensions/ticket_runtime_evidence_completion_v1_5/__init__.py",
+      "sha256": "365e2ea6c6c517e113b94e3520314881285c1925a14ee4c78fc43f6f817cbbc2",
+      "bytes": 74
+    },
+    "extensions/ticket_runtime_evidence_completion_v1_5/core.py": {
+      "source_path": "extensions/ticket_runtime_evidence_completion_v1_5/core.py",
+      "sha256": "ade7453442eed59862269257587eef3dfe19082248e8cb0ac19c3482401e783e",
+      "bytes": 7775
+    },
+    "extensions/ticket_runtime_evidence_completion_v1_5/tests.py": {
+      "source_path": "extensions/ticket_runtime_evidence_completion_v1_5/tests.py",
+      "sha256": "76236b2b64ea5c58f4702b38c745485a99ee2d68f3b30270697e8258010a24da",
+      "bytes": 3529
+    },
+    "extensions/ticket_runtime_exact_create_recovery_dev_v1/__init__.py": {
+      "source_path": "extensions/ticket_runtime_exact_create_recovery_dev_v1/__init__.py",
+      "sha256": "4bbae847a8f70205781cc13fdaec5efaa2722b6a8c67ed60201dda2073822891",
+      "bytes": 65
+    },
+    "extensions/ticket_runtime_exact_create_recovery_dev_v1/core.py": {
+      "source_path": "extensions/ticket_runtime_exact_create_recovery_dev_v1/core.py",
+      "sha256": "648d39c6c5b583e7eff1224ff344ac7aaa5164ef9d5240b0fe90ce6469c7afe8",
+      "bytes": 17333
+    },
+    "extensions/ticket_runtime_exact_create_recovery_v1_6/__init__.py": {
+      "source_path": "extensions/ticket_runtime_exact_create_recovery_v1_6/__init__.py",
+      "sha256": "b408a38eb17c9ed83b9915ad5dff0cec0823d36f299540ee336d892b71af4e35",
+      "bytes": 59
+    },
+    "extensions/ticket_runtime_exact_create_recovery_v1_6/core.py": {
+      "source_path": "extensions/ticket_runtime_exact_create_recovery_v1_6/core.py",
+      "sha256": "35e16bff1f9c763703bfab2cb07ecc694b9073ddf1cd24665879c9ac7733f580",
+      "bytes": 5819
+    },
+    "extensions/ticket_runtime_exact_create_recovery_v1_6/tests.py": {
+      "source_path": "extensions/ticket_runtime_exact_create_recovery_v1_6/tests.py",
+      "sha256": "d0812814fc0d763ed8a5367f06ad3e6d07ac7fbec5b7c614ec923bd8b66e85fb",
+      "bytes": 4055
+    },
+    "extensions/ticket_runtime_general_recovery_activation_dev_v1/__init__.py": {
+      "source_path": "extensions/ticket_runtime_general_recovery_activation_dev_v1/__init__.py",
+      "sha256": "7b52b532522960684d356332c0b05fbeb6dcadf8c59d9888a81c7c0d07a9061a",
+      "bytes": 74
+    },
+    "extensions/ticket_runtime_general_recovery_activation_dev_v1/core.py": {
+      "source_path": "extensions/ticket_runtime_general_recovery_activation_dev_v1/core.py",
+      "sha256": "a490b744a975aed4d567274648f6543a3949794ee0a9bfb36c9f498b6bf81b29",
+      "bytes": 17766
+    },
+    "extensions/ticket_runtime_general_recovery_activation_dev_v2/__init__.py": {
+      "source_path": "extensions/ticket_runtime_general_recovery_activation_dev_v2/__init__.py",
+      "sha256": "9cb249f5f6c1bf0d76dc0947dca39d92c010dde8e2e93e433ab4be141e21a489",
+      "bytes": 79
+    },
+    "extensions/ticket_runtime_general_recovery_activation_dev_v2/core.py": {
+      "source_path": "extensions/ticket_runtime_general_recovery_activation_dev_v2/core.py",
+      "sha256": "37cf5c45a591843509ffc7996e0698aa1d1d37fe68a34d62b0f922251b3e7c85",
+      "bytes": 10194
+    },
+    "extensions/ticket_runtime_general_recovery_dev_v1/__init__.py": {
+      "source_path": "extensions/ticket_runtime_general_recovery_dev_v1/__init__.py",
+      "sha256": "71b41d4164e0ad7ec6653059a971c14ec75c63066453b3f48d4c5903e05d55e4",
+      "bytes": 62
+    },
+    "extensions/ticket_runtime_general_recovery_dev_v1/core.py": {
+      "source_path": "extensions/ticket_runtime_general_recovery_dev_v1/core.py",
+      "sha256": "bc7b3c19e049c3bb0da9ffc7bf3e24b10fd1f0c6754801fd3871e5ad8c645ea8",
+      "bytes": 17735
+    },
+    "extensions/ticket_runtime_model_recovery_design_v1/__init__.py": {
+      "source_path": "extensions/ticket_runtime_model_recovery_design_v1/__init__.py",
+      "sha256": "14d8626b549feac551413f425953b5fb37338447f5bc87eff050ff63440892e8",
+      "bytes": 75
+    },
+    "extensions/ticket_runtime_model_recovery_design_v1/core.py": {
+      "source_path": "extensions/ticket_runtime_model_recovery_design_v1/core.py",
+      "sha256": "10b4298da485ce8ca342fa2ca0cdcaab54d76a2f2b0189704da7240652bdf263",
+      "bytes": 15869
+    },
+    "extensions/ticket_runtime_model_recovery_v1/__init__.py": {
+      "source_path": "extensions/ticket_runtime_model_recovery_v1/__init__.py",
+      "sha256": "9fe4471cdb5997efb82fd7a02a057d0f027de45a80e67787871ee4ab7138bdf4",
+      "bytes": 58
+    },
+    "extensions/ticket_runtime_model_recovery_v1/provider.py": {
+      "source_path": "extensions/ticket_runtime_model_recovery_v1/provider.py",
+      "sha256": "9438a7a748be467d497cf78e9201682fd70e1f39d31f78238e63f8854ba2ce5f",
+      "bytes": 3202
+    },
+    "extensions/ticket_runtime_model_recovery_v1/support.py": {
+      "source_path": "extensions/ticket_runtime_model_recovery_v1/support.py",
+      "sha256": "594be38be0f97344614704a7ad407ae6d60d20060884a592f037774a4a354430",
+      "bytes": 10193
+    },
+    "extensions/ticket_runtime_prospective_blind_v6_eval/__init__.py": {
+      "source_path": "extensions/ticket_runtime_prospective_blind_v6_eval/__init__.py",
+      "sha256": "7a61d90b4405db9126b5949cf27bf8c70bcb2639dbd13cf936b2188b2cd92c72",
+      "bytes": 57
+    },
+    "extensions/ticket_runtime_prospective_blind_v6_eval/compare.py": {
+      "source_path": "extensions/ticket_runtime_prospective_blind_v6_eval/compare.py",
+      "sha256": "b53a591ce6e3271d522ddb42818b0037ef6579b76748bba19e5a8710648f428b",
+      "bytes": 9516
+    },
+    "extensions/ticket_runtime_prospective_blind_v6_eval/support.py": {
+      "source_path": "extensions/ticket_runtime_prospective_blind_v6_eval/support.py",
+      "sha256": "028dfaa6df94884f049a5a82917d25f5a094b0acec13ea287461f629761498ca",
+      "bytes": 11558
+    },
+    "extensions/ticket_runtime_prospective_blind_v6_eval/tests.py": {
+      "source_path": "extensions/ticket_runtime_prospective_blind_v6_eval/tests.py",
+      "sha256": "92c8b7a61a27b86c0a86f846612459000682abf2fcd62c1f6ba03347cf39ef43",
+      "bytes": 3617
+    },
+    "extensions/ticket_runtime_prospective_blind_v6_eval/worker.py": {
+      "source_path": "extensions/ticket_runtime_prospective_blind_v6_eval/worker.py",
+      "sha256": "fae0df294d84b4ad546f09006fcb6558cbb79c584c3db62f6d1d9babc2c43e8b",
+      "bytes": 2244
+    },
+    "extensions/ticket_runtime_prospective_holdout_v6/__init__.py": {
+      "source_path": "extensions/ticket_runtime_prospective_holdout_v6/__init__.py",
+      "sha256": "9bb25c92b2d3e9bc880a1565e20ea8fd835623324247fbd68e6205dc2d935d47",
+      "bytes": 52
+    },
+    "extensions/ticket_runtime_prospective_holdout_v6/core.py": {
+      "source_path": "extensions/ticket_runtime_prospective_holdout_v6/core.py",
+      "sha256": "09ee835b23ea32928a00e382271274979059afbc6e36140f3a862cef7a1f9985",
+      "bytes": 32457
+    },
+    "extensions/ticket_runtime_prospective_holdout_v6/tests.py": {
+      "source_path": "extensions/ticket_runtime_prospective_holdout_v6/tests.py",
+      "sha256": "e76d5d6ee4b29925ebb0a4904c59cb5aa154df35c40b792acbaa5e224b6c50ee",
+      "bytes": 2630
+    },
+    "extensions/ticket_runtime_transaction_recovery_v1_2/__init__.py": {
+      "source_path": "extensions/ticket_runtime_transaction_recovery_v1_2/__init__.py",
+      "sha256": "758836702da10c10c608eb2f9df14d752aa3e14163d3703485a8ef76424fad3f",
+      "bytes": 57
+    },
+    "extensions/ticket_runtime_transaction_recovery_v1_2/core.py": {
+      "source_path": "extensions/ticket_runtime_transaction_recovery_v1_2/core.py",
+      "sha256": "a025f27442c5a61014deb6f27a7f7eb342d2b364df6d8b9c2b33cfc0b213ece8",
+      "bytes": 12040
+    },
+    "extensions/ticket_runtime_transaction_recovery_v1_2/tests.py": {
+      "source_path": "extensions/ticket_runtime_transaction_recovery_v1_2/tests.py",
+      "sha256": "f1f55b07d9de3f23965c58f3ab6b5cc4df187dfb92daba17a08b7a7f042d0341",
+      "bytes": 6450
+    },
+    "extensions/ticket_runtime_trusted_completion_dev_v1/__init__.py": {
+      "source_path": "extensions/ticket_runtime_trusted_completion_dev_v1/__init__.py",
+      "sha256": "cbc684c72f35972573d041508deffa8d2da089c6eb1a49dca952e0fe73c4eced",
+      "bytes": 73
+    },
+    "extensions/ticket_runtime_trusted_completion_dev_v1/core.py": {
+      "source_path": "extensions/ticket_runtime_trusted_completion_dev_v1/core.py",
+      "sha256": "33454590dcfab460a7596c34999c54f6dc93cf8e1306f69724b7247ff36029e1",
+      "bytes": 14559
+    },
+    "extensions/ticket_runtime_trusted_completion_v1_7/__init__.py": {
+      "source_path": "extensions/ticket_runtime_trusted_completion_v1_7/__init__.py",
+      "sha256": "52120b875e2862735e25137c83ed8c333b678029be3470b40f0deb81ed8946a7",
+      "bytes": 78
+    },
+    "extensions/ticket_runtime_trusted_completion_v1_7/core.py": {
+      "source_path": "extensions/ticket_runtime_trusted_completion_v1_7/core.py",
+      "sha256": "aa225d09730513280b433e6ea5b45e97d0f9dc4f926095b5ea719247d7309043",
+      "bytes": 10406
+    },
+    "extensions/ticket_runtime_trusted_completion_v1_7/tests.py": {
+      "source_path": "extensions/ticket_runtime_trusted_completion_v1_7/tests.py",
+      "sha256": "f7440ddac0df271fc05996db502862edde50c52a55dbd1ab8cf77ee1aaacad1b",
+      "bytes": 4134
+    },
+    "extensions/ticket_runtime_visible_contract_dev_v1/__init__.py": {
+      "source_path": "extensions/ticket_runtime_visible_contract_dev_v1/__init__.py",
+      "sha256": "816acd4ab2a2def233391eea4820ee99837cedc088f9befd0f1b71ad1a4ccae5",
+      "bytes": 72
+    },
+    "extensions/ticket_runtime_visible_contract_dev_v1/core.py": {
+      "source_path": "extensions/ticket_runtime_visible_contract_dev_v1/core.py",
+      "sha256": "f0fa410a1e3e13ddd7c50d1d428ff49115badd16fe6d227e5c9b5fc3eb34214b",
+      "bytes": 15391
+    },
+    "extensions/ticket_sft_v3_stage2/core.py": {
+      "source_path": "extensions/ticket_sft_v3_stage2/core.py",
+      "sha256": "6279079901269d3a29c4efea3d6f1dd3c4bd6308a5b115bd791e140d35f02ab8",
+      "bytes": 27643
+    },
+    "extensions/ticket_training_v1/__init__.py": {
+      "source_path": "extensions/ticket_training_v1/__init__.py",
+      "sha256": "8158d55b8b2d9c7d5b510ba5175f96c90c50717ae83e5539d34b72e26986460a",
+      "bytes": 92
+    },
+    "extensions/ticket_training_v1/support.py": {
+      "source_path": "extensions/ticket_training_v1/support.py",
+      "sha256": "378372ac851993d04e1069d26ed8660e286d359eeca37c3edf8956b22235e7a5",
+      "bytes": 15588
+    },
+    "extensions/ticket_training_v1/train.py": {
+      "source_path": "extensions/ticket_training_v1/train.py",
+      "sha256": "9ed47649941ecdfa0899825afbda6a9f90403cd72cde71b75891b952a1c11b7a",
+      "bytes": 11863
+    },
+    "extensions/ticket_training_v1_1/__init__.py": {
+      "source_path": "extensions/ticket_training_v1_1/__init__.py",
+      "sha256": "8158d55b8b2d9c7d5b510ba5175f96c90c50717ae83e5539d34b72e26986460a",
+      "bytes": 92
+    },
+    "extensions/ticket_training_v1_1/recover.py": {
+      "source_path": "extensions/ticket_training_v1_1/recover.py",
+      "sha256": "fb1fcac617ee14f56e7cf3df12e2f534d6a80acb654f8fa7a3a392aa9c256008",
+      "bytes": 8577
+    },
+    "extensions/ticket_training_v1_1/support.py": {
+      "source_path": "extensions/ticket_training_v1_1/support.py",
+      "sha256": "2d1251ceca64e68acf39fa2baae367a10e73ff636dfda3f131a48f90b92b767c",
+      "bytes": 15603
+    },
+    "extensions/ticket_training_v1_1/train.py": {
+      "source_path": "extensions/ticket_training_v1_1/train.py",
+      "sha256": "4c522614b8fd8a401a3941140b25359692ead02f117d3e8c1bfb3933bb4bbc22",
+      "bytes": 12237
+    },
+    "extensions/ticket_training_v1_2/__init__.py": {
+      "source_path": "extensions/ticket_training_v1_2/__init__.py",
+      "sha256": "d29c0ac5027c7d74af51a793a36aaa5364310da7eb6096950fd67305e1834fb2",
+      "bytes": 95
+    },
+    "extensions/ticket_training_v1_2/support.py": {
+      "source_path": "extensions/ticket_training_v1_2/support.py",
+      "sha256": "5f376982606225c5348c89eeffdbac8db92f968ff14dba0265421675f612a187",
+      "bytes": 3069
+    },
+    "reports/ticket-interactive-demo-v1/handoff.md": {
+      "source_path": "reports/ticket-interactive-demo-v1/handoff.md",
+      "sha256": "194a1465e040e5b8fa50e5caff5388271be67f7019e479ae132ccb76ac72e436",
+      "bytes": 4420
+    },
+    "reports/ticket-interactive-demo-v1/local-verification.json": {
+      "source_path": "reports/ticket-interactive-demo-v1/local-verification.json",
+      "sha256": "255a0ebeb2522acdc0095084da3c214d3f9c5e30eb4cad597eebf31e39e15b30",
+      "bytes": 415
+    },
+    "reports/ticket-runtime-offline-rc-v1/acceptance.json": {
+      "source_path": "reports/ticket-runtime-offline-rc-v1/acceptance.json",
+      "sha256": "61abfbff056a79ace657fa358565415c6c213791a7179936606d565080982260",
+      "bytes": 6597
+    },
+    "reports/ticket-runtime-offline-rc-v1/handoff.md": {
+      "source_path": "reports/ticket-runtime-offline-rc-v1/handoff.md",
+      "sha256": "73bf2737ce9451fb86ad15d9d7ba0f7bc2d4517a33e27bff899f080ec3cf6791",
+      "bytes": 1035
+    },
+    "reports/ticket-runtime-offline-rc-v1/release-manifest-v1_1.json": {
+      "source_path": "reports/ticket-runtime-offline-rc-v1/release-manifest-v1_1.json",
+      "sha256": "ec3766fa1801d458e3b122239f50d8da6cab953a1a01d8a4436f67ce93657a4f",
+      "bytes": 1398
+    },
+    "reports/ticket-runtime-offline-rc-v1/report.md": {
+      "source_path": "reports/ticket-runtime-offline-rc-v1/report.md",
+      "sha256": "22589e52db5b19b1509ff8d42fdfd2ad214490b078f1115d7747d58902dddee3",
+      "bytes": 770
+    },
+    "reports/ticket-runtime-offline-rc-v1/rollback.md": {
+      "source_path": "reports/ticket-runtime-offline-rc-v1/rollback.md",
+      "sha256": "bad44ce80dc6c643762e8e667d37f4e6d2c200861521ae89177f8121a8acb929",
+      "bytes": 630
+    },
+    "reports/ticket-runtime-prospective-blind-v6-semantic-review-v1/summary.json": {
+      "source_path": "reports/ticket-runtime-prospective-blind-v6-semantic-review-v1/summary.json",
+      "sha256": "07f623d1826e1a509a8eee01d28630f3d0118bd4b0289007b4ebd98892a51ba2",
+      "bytes": 3304
+    },
+    "requirements-data.txt": {
+      "source_path": "requirements-data.txt",
+      "sha256": "eef4ba3bd616cb0e10bc3b11973eb51e4df2a30b3d33cb9477aa500b4e3fb739",
+      "bytes": 94
+    },
+    "results/training/train/adapter/adapter_config.json": {
+      "source_path": "runs/ticket-policy-retention-sft-v1.2-gpu2/train/adapter/adapter_config.json",
+      "sha256": "57835d0546a21af767e2c1acf8b8153bd2e4f01cfee65d40a9e1438754666610",
+      "bytes": 880
+    },
+    "results/training/train/adapter/all_results.json": {
+      "source_path": "runs/ticket-policy-retention-sft-v1.2-gpu2/train/adapter/all_results.json",
+      "sha256": "db9d6d7c67a788b5f0a5471d665430fe015c8124ca3723381a55874e1052d222",
+      "bytes": 608
+    },
+    "results/training/train/adapter/trainer_state.json": {
+      "source_path": "runs/ticket-policy-retention-sft-v1.2-gpu2/train/adapter/trainer_state.json",
+      "sha256": "40a25205688f0bddaa90394cd0dbdfa0a991dae6524f5cd30d44cac47dde984e",
+      "bytes": 5215
+    },
+    "results/training/train/adapter/training_loss.png": {
+      "source_path": "runs/ticket-policy-retention-sft-v1.2-gpu2/train/adapter/training_loss.png",
+      "sha256": "cb1b1914200e5af9f594ee48020e73cdcde527cd9d9653b97c33021e8a7343c2",
+      "bytes": 35952
+    },
+    "results/training/train/config.json": {
+      "source_path": "runs/ticket-policy-retention-sft-v1.2-gpu2/train/config.json",
+      "sha256": "5172018ed2540cc79f22a7478826de7c6f6402e0cbd9efd0ddee8b41e42622e8",
+      "bytes": 1743
+    },
+    "results/training/train/initialization.json": {
+      "source_path": "runs/ticket-policy-retention-sft-v1.2-gpu2/train/initialization.json",
+      "sha256": "3ea7da0e0e015c809eef45b06e7de66fab1f32097144be0892bfe3bbf7a2590b",
+      "bytes": 236
+    },
+    "results/training/train/verification.json": {
+      "source_path": "runs/ticket-policy-retention-sft-v1.2-gpu2/train/verification.json",
+      "sha256": "c4cc8343b3f94a9ca47d96977dc2a7d9797de7698e63e50d30a98f5893a1ed54",
+      "bytes": 29248
+    },
+    "results/v6/comparison.json": {
+      "source_path": "runs/ticket-runtime-prospective-blind-v6-gpu0/comparison.json",
+      "sha256": "14ef97845d4d9dc9b5e8e74bbb9b47808f20755c4efdc8901dc6c2c5417fb037",
+      "bytes": 5974
+    },
+    "results/v6/complete.json": {
+      "source_path": "runs/ticket-runtime-prospective-blind-v6-gpu0/complete.json",
+      "sha256": "8b6cf2784801f430c771ce6d92d5d488e28cfba3251ea89b76215c50c55de6b3",
+      "bytes": 496
+    },
+    "results/v6/exact_create_recovery_v1.6/episodes-unscored.jsonl": {
+      "source_path": "runs/ticket-runtime-prospective-blind-v6-gpu0/exact_create_recovery_v1.6/episodes-unscored.jsonl",
+      "sha256": "7f0598f404e01410243d3e01568a577a1f0a0cdd42cdbb6d431741f234506c33",
+      "bytes": 1997294
+    },
+    "results/v6/paired-review.json": {
+      "source_path": "runs/ticket-runtime-prospective-blind-v6-gpu0/paired-review.json",
+      "sha256": "7da996924d059ea76489c9ae7af21dd27d79607703bf62b6211782e4d1c0eae3",
+      "bytes": 178939
+    },
+    "results/v6/trusted_completion_v1.7/episodes-unscored.jsonl": {
+      "source_path": "runs/ticket-runtime-prospective-blind-v6-gpu0/trusted_completion_v1.7/episodes-unscored.jsonl",
+      "sha256": "2e7c6b87fb7550664fd914cd48ba9609c9972ea31632554978270563323bbef0",
+      "bytes": 1842836
+    },
+    "scripts/finalize_ticket_policy_retention_upload_review_v1.py": {
+      "source_path": "scripts/finalize_ticket_policy_retention_upload_review_v1.py",
+      "sha256": "933b85db2846e02b40bf5626c2f3c5480b1e77e31dab92b2b900655851279d71",
+      "bytes": 4328
+    },
+    "scripts/freeze_ticket_policy_retention_design_v1.py": {
+      "source_path": "scripts/freeze_ticket_policy_retention_design_v1.py",
+      "sha256": "0685b675c8300b7793f96978d259cc2df919b9c8dd1f3cdaa0c101850a7c5f33",
+      "bytes": 18292
+    },
+    "scripts/package_ticket_interactive_demo_v1.py": {
+      "source_path": "scripts/package_ticket_interactive_demo_v1.py",
+      "sha256": "2c3dc891237d675aab8a856c8156734a8e33b41a96a85f827baa6b01a3e88042",
+      "bytes": 3643
+    },
+    "scripts/package_ticket_policy_repair_release_v1.py": {
+      "source_path": "scripts/package_ticket_policy_repair_release_v1.py",
+      "sha256": "ca0c88fb43cd6eb37543150a694d5f8cf5189a7458262775b73404e96a25f3d3",
+      "bytes": 3891
+    },
+    "scripts/package_ticket_policy_retention_candidate_v1.py": {
+      "source_path": "scripts/package_ticket_policy_retention_candidate_v1.py",
+      "sha256": "9138fa5fd0471bf349437434be903192ef6717873b1f1f77ce64d51e203598c1",
+      "bytes": 3363
+    },
+    "scripts/package_ticket_policy_retention_extension_v1.py": {
+      "source_path": "scripts/package_ticket_policy_retention_extension_v1.py",
+      "sha256": "694dd8a8ac8c0e2a85d62d6907dee2da05e54326d61d2c5843833589bbde1e73",
+      "bytes": 2247
+    },
+    "scripts/package_ticket_policy_retention_extension_v1_1.py": {
+      "source_path": "scripts/package_ticket_policy_retention_extension_v1_1.py",
+      "sha256": "572fcacac87c33c216b5eb49830577059ca4fbcd76fd4c508257d95ddcf1066e",
+      "bytes": 2949
+    },
+    "scripts/package_ticket_policy_retention_pilot_v1.py": {
+      "source_path": "scripts/package_ticket_policy_retention_pilot_v1.py",
+      "sha256": "e7051ee8125e68e8d9674586831f54ef492d1c039cee59b0abe2c1d37f09e11a",
+      "bytes": 2238
+    },
+    "scripts/package_ticket_policy_retention_release_v1.py": {
+      "source_path": "scripts/package_ticket_policy_retention_release_v1.py",
+      "sha256": "7963f3471273f2de8e8128e30f31963f1a1205df30f8dbd2fa3a8d6b93fa9ffc",
+      "bytes": 3856
+    },
+    "scripts/package_ticket_policy_retention_release_v1_1.py": {
+      "source_path": "scripts/package_ticket_policy_retention_release_v1_1.py",
+      "sha256": "9334e9cf3a5ee89edc18c2915fea2dc2bdf2c42776b8173c37c91c557bc7487a",
+      "bytes": 3955
+    },
+    "scripts/record_ticket_policy_repair_confirmation.py": {
+      "source_path": "scripts/record_ticket_policy_repair_confirmation.py",
+      "sha256": "12e860a7216df7b2d7d0b1f53662363ef8d3530e95b9a90e740c1a80c1aa2165",
+      "bytes": 6762
+    },
+    "scripts/record_ticket_policy_retention_ai_review_v1.py": {
+      "source_path": "scripts/record_ticket_policy_retention_ai_review_v1.py",
+      "sha256": "973675eba85e9194c0b4bedc5f0cf4bbf4e159364cbf5db42b3b1de4be57ac2a",
+      "bytes": 16043
+    },
+    "scripts/release_ticket_policy_repair_v1.py": {
+      "source_path": "scripts/release_ticket_policy_repair_v1.py",
+      "sha256": "5801db7042ff85d0a7d311fff4153ce9b5ca75dd85828709383baac9d313a698",
+      "bytes": 1069
+    },
+    "scripts/release_ticket_policy_retention_v1.py": {
+      "source_path": "scripts/release_ticket_policy_retention_v1.py",
+      "sha256": "104f3fbac2704d7e5b24ab14aea791e504336bffabfaf32131a210d5e509ca45",
+      "bytes": 1178
+    },
+    "scripts/release_ticket_policy_retention_v1_1.py": {
+      "source_path": "scripts/release_ticket_policy_retention_v1_1.py",
+      "sha256": "8fe40b08340252436780695a50a1ad76ce5c20c12c7d3fa98f323b6c561aa3b8",
+      "bytes": 1185
+    },
+    "scripts/review_ticket_policy_repair_upload_v1.py": {
+      "source_path": "scripts/review_ticket_policy_repair_upload_v1.py",
+      "sha256": "92f96f27265252fd3f49ad6089eaa1ac83e64b06dd266993536b982baf40dd99",
+      "bytes": 13258
+    },
+    "scripts/review_ticket_policy_retention_upload_v1.py": {
+      "source_path": "scripts/review_ticket_policy_retention_upload_v1.py",
+      "sha256": "99777d3ade547f2232c7d1856499f40c127f677632a5364dbbfa9c7f470e06f6",
+      "bytes": 8861
+    },
+    "scripts/run_ticket_interactive_demo_v1.py": {
+      "source_path": "scripts/run_ticket_interactive_demo_v1.py",
+      "sha256": "30453412d9a386fa771a26bef97cfb38ed5932636c65ff3607b413fcbcd6652d",
+      "bytes": 2566
+    },
+    "scripts/run_ticket_policy_audit_v1.py": {
+      "source_path": "scripts/run_ticket_policy_audit_v1.py",
+      "sha256": "facf1cf9930514c6ae4ce4afe98e6a9b81dcba5d865687102784f76a92f076f3",
+      "bytes": 1805
+    },
+    "scripts/run_ticket_policy_diagnostic_v1.py": {
+      "source_path": "scripts/run_ticket_policy_diagnostic_v1.py",
+      "sha256": "007fa0e76ddf05fe39cdbe4468c5f5bee6cf7ca52d094e436130d325f857f2f8",
+      "bytes": 2090
+    },
+    "scripts/run_ticket_policy_diagnostic_v1_1.py": {
+      "source_path": "scripts/run_ticket_policy_diagnostic_v1_1.py",
+      "sha256": "d4bdea181dd4337d7045c8cca11bb5d26b3124f1f453a9272d8aafb2b29673e9",
+      "bytes": 3470
+    },
+    "scripts/run_ticket_policy_repair_training_v1.py": {
+      "source_path": "scripts/run_ticket_policy_repair_training_v1.py",
+      "sha256": "910da7e6f2add4c86186e61881fd2451f8177125013039be1eda0b618dff10a1",
+      "bytes": 7977
+    },
+    "scripts/run_ticket_policy_retention_build_v1.py": {
+      "source_path": "scripts/run_ticket_policy_retention_build_v1.py",
+      "sha256": "2ffc0c33ef45c89ffbbba9e4c63310148d6ed0145b97c40454696992d203b696",
+      "bytes": 286
+    },
+    "scripts/run_ticket_policy_retention_cpu_audit_v1.py": {
+      "source_path": "scripts/run_ticket_policy_retention_cpu_audit_v1.py",
+      "sha256": "4b51f0c0c3fdde3e4599b6ac0cef7bee63b18cf5092355bc1fdea0ed61ee27b3",
+      "bytes": 2070
+    },
+    "scripts/run_ticket_policy_retention_extension_v1.py": {
+      "source_path": "scripts/run_ticket_policy_retention_extension_v1.py",
+      "sha256": "f22526f3a281d8b4e26c894bd91b4eb011dda2a651ab5635e0a787c9e32ec951",
+      "bytes": 202
+    },
+    "scripts/run_ticket_policy_retention_extension_v1_1.py": {
+      "source_path": "scripts/run_ticket_policy_retention_extension_v1_1.py",
+      "sha256": "814bc328ea758a20a0810b1d0afb959c0b7eb58a021ad307093fc06e5370b45f",
+      "bytes": 204
+    },
+    "scripts/run_ticket_policy_retention_pilot_v1.py": {
+      "source_path": "scripts/run_ticket_policy_retention_pilot_v1.py",
+      "sha256": "b0e84c15e76c8ab320b22833ed3cb0f70bddc611788e1bb61210b9c9cb703556",
+      "bytes": 305
+    },
+    "scripts/run_ticket_policy_retention_training_v1_1.py": {
+      "source_path": "scripts/run_ticket_policy_retention_training_v1_1.py",
+      "sha256": "7767150fa4f84911e9ffea52f0f9824fd855e4b0e28ddd0c2c8f15c8122a1a70",
+      "bytes": 8459
+    },
+    "scripts/run_ticket_policy_retention_training_v1_2.py": {
+      "source_path": "scripts/run_ticket_policy_retention_training_v1_2.py",
+      "sha256": "244a7dc72a75bc27cbf7326823c624827c2159269664234a8ccff4bceea64a98",
+      "bytes": 8468
+    },
+    "scripts/run_ticket_runtime_prospective_blind_v6.py": {
+      "source_path": "scripts/run_ticket_runtime_prospective_blind_v6.py",
+      "sha256": "f88c9723c04aea916bfb6bd5a6caa02719e70b7c54c048c60db91505e40b5671",
+      "bytes": 5375
+    },
+    "scripts/run_ticket_sft_v3.py": {
+      "source_path": "scripts/run_ticket_sft_v3.py",
+      "sha256": "aa063ecb78ac751252a9ee7ef25565129f471e8bd3082b90913ea6df84bb3a63",
+      "bytes": 3910
+    },
+    "scripts/run_ticket_sft_v3_eval_v1_2.py": {
+      "source_path": "scripts/run_ticket_sft_v3_eval_v1_2.py",
+      "sha256": "c945f96df4f3bbf738db033cb11f8fb1c85ca45ba7b35888ad722b5a2b834153",
+      "bytes": 4646
+    },
+    "scripts/run_ticket_sft_v3_v1_1.py": {
+      "source_path": "scripts/run_ticket_sft_v3_v1_1.py",
+      "sha256": "965e17f5feb319c5936e72b9f25b04235e85511c1b10cdeae7d16eafd237bcbc",
+      "bytes": 4112
+    },
+    "scripts/verify_ticket_policy_repair_training_dependencies_v1.py": {
+      "source_path": "scripts/verify_ticket_policy_repair_training_dependencies_v1.py",
+      "sha256": "7c751f6b15fc7bcfb7298a945407c27522eaff771c4401a7836c0a5d467f9947",
+      "bytes": 3633
+    },
+    "scripts/verify_ticket_policy_retention_plan_v1.py": {
+      "source_path": "scripts/verify_ticket_policy_retention_plan_v1.py",
+      "sha256": "c81d0388b9ecb555053b2d4e503397e0509ec6f5d8741970289571ed1d0ff994",
+      "bytes": 5578
+    },
+    "scripts/verify_ticket_sft_stage2_release.py": {
+      "source_path": "scripts/verify_ticket_sft_stage2_release.py",
+      "sha256": "dfafdd6e620c35174a23bb4a299db9e28216c5c67c6399b99819a00519cc5676",
+      "bytes": 9972
+    },
+    "tests/test_policy_repair_release_v1.py": {
+      "source_path": "tests/test_policy_repair_release_v1.py",
+      "sha256": "0569dbaafff721f84351b1dabe93dda82f45c2c605e8506a6aedbeea2f1febbe",
+      "bytes": 5526
+    },
+    "tests/test_policy_repair_training_v1.py": {
+      "source_path": "tests/test_policy_repair_training_v1.py",
+      "sha256": "7d0fa1ff13a36808f5b7d421ab6feaa3b952f3e2d26e0b9ccbbb06581cb73b4d",
+      "bytes": 22453
+    },
+    "tests/test_policy_repair_uploaded_evidence_v1.py": {
+      "source_path": "tests/test_policy_repair_uploaded_evidence_v1.py",
+      "sha256": "37a24af2cc3f45971611071652e9bb5cc111beae25460ac38b6cfc59c59148d3",
+      "bytes": 4683
+    },
+    "tests/test_stage2_release_verifier.py": {
+      "source_path": "tests/test_stage2_release_verifier.py",
+      "sha256": "ca9719f011742c94e448e16d2f966c5daaf3fdbdcaca46156a0146e5ef5cee2c",
+      "bytes": 4309
+    },
+    "tests/test_ticket_policy_retention_build_v1.py": {
+      "source_path": "tests/test_ticket_policy_retention_build_v1.py",
+      "sha256": "e66f2b654be725029613e96869f9d17d844b2cd6c7a10b36fff811086b82a8ba",
+      "bytes": 13686
+    },
+    "tests/test_ticket_policy_retention_design_v1.py": {
+      "source_path": "tests/test_ticket_policy_retention_design_v1.py",
+      "sha256": "7df31acc23864b2c29c0eebed6de1f489640258079453dea87fb30342645eb38",
+      "bytes": 6862
+    },
+    "tests/test_ticket_policy_retention_extension_v1.py": {
+      "source_path": "tests/test_ticket_policy_retention_extension_v1.py",
+      "sha256": "7914897b4a955e8e363aa4a0e474ce08d42e214e381a768e4bd599266c67ab32",
+      "bytes": 6077
+    },
+    "tests/test_ticket_policy_retention_extension_v1_1.py": {
+      "source_path": "tests/test_ticket_policy_retention_extension_v1_1.py",
+      "sha256": "5f87fafd97a9bf1ada10d751a95bf563d3478a741f385570088cfaa8aa544c66",
+      "bytes": 7583
+    },
+    "tests/test_ticket_policy_retention_pilot_v1.py": {
+      "source_path": "tests/test_ticket_policy_retention_pilot_v1.py",
+      "sha256": "7542abb587395c8d7d32ca38d36c95e778164975dd167285f50a91ea0f5df07b",
+      "bytes": 5569
+    },
+    "tests/test_ticket_policy_retention_plan_v1.py": {
+      "source_path": "tests/test_ticket_policy_retention_plan_v1.py",
+      "sha256": "6f64b5aa08712cf4bcc7939b5b6c02e434fc8bcddba6eb9861de087992fc903c",
+      "bytes": 1966
+    },
+    "tests/test_ticket_policy_retention_release_v1.py": {
+      "source_path": "tests/test_ticket_policy_retention_release_v1.py",
+      "sha256": "ccfb0431aa8c03b2c79c6a8f5382b668f52de360db1ed78371b47e08efd2eddf",
+      "bytes": 7449
+    },
+    "tests/test_ticket_policy_retention_release_v1_1.py": {
+      "source_path": "tests/test_ticket_policy_retention_release_v1_1.py",
+      "sha256": "fb57420946c88d6dd7a18debb7a3a872603d6b3b616566feb902d73b1c220085",
+      "bytes": 3746
+    },
+    "tests/test_ticket_policy_retention_training_v1_1.py": {
+      "source_path": "tests/test_ticket_policy_retention_training_v1_1.py",
+      "sha256": "d4f2d59739bcda48cf63d51c11b87bfcf2be3380a0e8a4012137bd87f90b3b1a",
+      "bytes": 15470
+    },
+    "tests/test_ticket_policy_retention_training_v1_2.py": {
+      "source_path": "tests/test_ticket_policy_retention_training_v1_2.py",
+      "sha256": "d33cc4c7055f4c0bed394fe360da208abb2209d51ea8fadba01ba05245c820fb",
+      "bytes": 20703
+    },
+    "tests/test_ticket_policy_retention_upload_review_v1.py": {
+      "source_path": "tests/test_ticket_policy_retention_upload_review_v1.py",
+      "sha256": "edb3472f1cfc9d4dd8848f105cb871263a0e48174f708f0d105c325f9862c35e",
+      "bytes": 5032
+    }
+  },
+  "all_copied_files_byte_identical": true,
+  "excluded_interactive_session_logs": true,
+  "excluded_weight_bytes": true
+}

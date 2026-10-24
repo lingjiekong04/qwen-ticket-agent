@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "eval_training_overlap_counts": {
+    "requests": 0,
+    "normalized_requests": 0,
+    "ids": 0,
+    "bodies": 0,
+    "trajectories": 0,
+    "business": 0,
+    "surface": 0
+  },
+  "previous_ID_overlap": 0,
+  "previous_request_overlap": 0,
+  "training_unique_identity_normalized_requests": 607,
+  "training_pair_count": 900,
+  "max_normalized_template_multiplicity": 6,
+  "scope": "Exact content, ID-normalized requests, bodies, full gold transcripts and reserved families. No claim of semantic independence or held-out generalization.",
+  "evaluation_oracles_read_only_for_postbuild_isolation": true,
+  "old_final_test_read": false
+}

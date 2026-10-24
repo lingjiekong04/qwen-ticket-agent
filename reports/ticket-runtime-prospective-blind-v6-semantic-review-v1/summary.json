@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "stage": "CPU_read_only_full_320_final_holdout_v6_semantic_review",
+  "review_kind": "AI_assisted_full_population_hash_state_and_semantic_review",
+  "human_row_review_attested": false,
+  "tasks": 160,
+  "episodes_reviewed": 320,
+  "frozen_formal_blind_acceptance": "passed_unchanged",
+  "usable_candidate_level": true,
+  "holdout_acceptance_consumed": true,
+  "posthoc_review_can_change_formal_acceptance": false,
+  "frozen_results": {
+    "exact_create_recovery_v1.6": {
+      "completed": 154,
+      "total": 160
+    },
+    "trusted_completion_v1.7": {
+      "completed": 160,
+      "total": 160
+    }
+  },
+  "candidate_semantic_success": 160,
+  "candidate_semantic_failures": 0,
+  "candidate_per_tool_semantic_success": {
+    "assign_ticket": 20,
+    "create_ticket": 20,
+    "get_kb_article": 20,
+    "get_ticket": 20,
+    "lookup_user": 20,
+    "search_kb": 20,
+    "search_tickets": 20,
+    "update_ticket_status": 20
+  },
+  "candidate_completion_lift": 6,
+  "candidate_invalid_model_outputs": 0,
+  "candidate_special_prefix_releases_verified": 30,
+  "candidate_special_prefix_releases_without_model_round": 30,
+  "baseline_failures_reviewed": 6,
+  "baseline_failure_categories": {
+    "real_case_mutation_retry_loop": 4,
+    "real_wrong_ticket_reread_loop": 2
+  },
+  "baseline_failed_task_ids": [
+    "zv6r-update_ticket_status-15-zh",
+    "zv6r-update_ticket_status-19-zh",
+    "zv6r-search_tickets-11-zh",
+    "zv6r-search_tickets-13-en",
+    "zv6r-search_tickets-15-zh",
+    "zv6r-search_tickets-17-en"
+  ],
+  "candidate_improvements": [
+    "zv6r-update_ticket_status-15-zh",
+    "zv6r-update_ticket_status-19-zh",
+    "zv6r-search_tickets-11-zh",
+    "zv6r-search_tickets-13-en",
+    "zv6r-search_tickets-15-zh",
+    "zv6r-search_tickets-17-en"
+  ],
+  "candidate_regressions": [],
+  "unchanged_failures": [],
+  "trusted_success_releases_verified": 314,
+  "scorer_reproduction_mismatches": 0,
+  "scorer_false_positives": 0,
+  "scorer_false_negatives": 0,
+  "benchmark_invalid_rows": 0,
+  "hard_safety_violations": 0,
+  "state_integrity_violations": 0,
+  "candidate_status": "formally_accepted_usable_candidate",
+  "system_under_test": "Qwen2.5-7B-Instruct + retention-v1.2 LoRA + trusted_completion_v1.7 runtime",
+  "model_weight_quality_claim": false,
+  "deployment_authorized": false,
+  "recommended_next_work": {
+    "freeze_v6_acceptance": true,
+    "reuse_v6_for_tuning_or_reacceptance": false,
+    "runtime_candidate": "trusted_completion_v1.7",
+    "next_stage": "offline_integration_release_candidate_packaging_and_nonlive_acceptance",
+    "live_tool_or_deployment_requires_separate_authorization": true
+  },
+  "transport": {
+    "archive_sha256": "50a215594623716aa15aea8608adf4e45823375fe9753236201ee68407cb2b0f",
+    "manifest_files_checked": 33,
+    "hash_mismatches": []
+  },
+  "source_hashes": {
+    "comparison.json": "14ef97845d4d9dc9b5e8e74bbb9b47808f20755c4efdc8901dc6c2c5417fb037",
+    "tasks.json": "3fc6ce390f28538a3d3d3d078e25093d5b4201bca8101093f9caedf5f43c2a94",
+    "candidate_runtime.py": "aa225d09730513280b433e6ea5b45e97d0f9dc4f926095b5ea719247d7309043"
+  },
+  "training_started": false,
+  "gpu_inference_started": false,
+  "live_tools_executed": 0
+}

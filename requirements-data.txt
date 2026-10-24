@@ -1,0 +1,2 @@
+# Install with -c constraints.txt to preserve the verified training stack.
+jsonschema==4.25.0

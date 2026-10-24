@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "rows": 1800,
+  "pairs": 900,
+  "candidate_manifest_sha256": "bd5290fbb7b68a8321ef238a0e96137333746b04ec803e64e8833e2c973d44bb",
+  "targeted_eval_manifest_sha256": "fca28aeab1eaf27f5d10bed8bcb0647d5d9e479bef09e26e679601d21fd5684b",
+  "sources_sha256": {
+    "extensions/ticket_policy_retention_build_v1/core.py": "861abffcbaf3ad38ea755b1f15a020b009d156d1427672927be682d35ce436c0",
+    "extensions/ticket_policy_retention_build_v1/pipeline.py": "9844927f21a499f5dfda62ba0b8104d00dd9089325873e64960ab38db3f5ef26",
+    "extensions/ticket_policy_retention_build_v1/remote.py": "d73b5e2e23ef3995267b75bbf3913b4ec75f0096d2339e4d1889b56f64c2bc2d",
+    "extensions/ticket_policy_retention_build_v1/validate.py": "20c43cd583bfb2c4d348055979f737b646e74e9f2437ebac30bf9cd464890f81",
+    "extensions/ticket_policy_retention_build_v1/README.md": "4153771af42dfb80bdc6c1715fae7fa644c499086b522fc861c7e314cb040506",
+    "scripts/run_ticket_policy_retention_build_v1.py": "2ffc0c33ef45c89ffbbba9e4c63310148d6ed0145b97c40454696992d203b696",
+    "scripts/run_ticket_policy_retention_cpu_audit_v1.py": "4b51f0c0c3fdde3e4599b6ac0cef7bee63b18cf5092355bc1fdea0ed61ee27b3",
+    "scripts/package_ticket_policy_retention_candidate_v1.py": "9138fa5fd0471bf349437434be903192ef6717873b1f1f77ce64d51e203598c1",
+    "tests/test_ticket_policy_retention_build_v1.py": "e66f2b654be725029613e96869f9d17d844b2cd6c7a10b36fff811086b82a8ba"
+  },
+  "dependencies_sha256": {
+    "extensions/ticket_policy_retention_pilot_v1/core.py": "a891e7947fcb711f551a06b42e11b1ad1c82d5633be9ddaa6dcffa0b67f986d8",
+    "extensions/ticket_policy_retention_pilot_v1/validate.py": "240c9976f0ede3dd9493035c707f52289fc1a7eff08e76cfbdb59bb50db200a7",
+    "extensions/ticket_sft_v3_stage2/core.py": "6279079901269d3a29c4efea3d6f1dd3c4bd6308a5b115bd791e140d35f02ab8",
+    "extensions/ticket_agent_v1/ticket_env.py": "1f58a8546fd52207a3b70836f8c532dafbec55e5cdb18c0a5c2fd5728e0f368a",
+    "extensions/ticket_policy_audit_v1/core.py": "63ab63a027487b280d15dbb3ba54431f311e1fbcca65df25c62180b41aa248ce",
+    "extensions/ticket_policy_audit_v1/run.py": "6ab3e95b39c4d809ecc3008fa3c0f931b781567478134052e9fc9faea1790388",
+    "extensions/ticket_training_v1_1/support.py": "2d1251ceca64e68acf39fa2baae367a10e73ff636dfda3f131a48f90b92b767c",
+    "scripts/freeze_ticket_policy_retention_design_v1.py": "0685b675c8300b7793f96978d259cc2df919b9c8dd1f3cdaa0c101850a7c5f33",
+    "reports/ticket-policy-retention-design-v1/freeze.json": "4068328ed86ae30ef5da1a8b3f8200a3e12c379fdb371c6497e19939de352fbf",
+    "reports/ticket-policy-retention-design-v1/evaluation-spec.json": "5e397965cc672be7cfd410d4d4525cbadd8b8ef891d855948e99be04c99ddee9",
+    "reports/ticket-policy-retention-design-v1/evaluation-cases.json": "600fed43136d4636b79a89ca40c38987bcf51556b915ca318c4176708c74116d",
+    "reports/ticket-policy-retention-design-v1/batch-proposal.json": "6e083dd7c186d794352e6bc662e4c0a0efd3052d243f59382d35b1b20a1910c4",
+    "data/ticket_sft_v3_stage2_train_release/token-audit.json": "7be39aa4d15e76361c471bb4adb4088b8349b13cc7b8b67c06af919c48d34622"
+  },
+  "versions": {
+    "torch": "2.6.0+cu124",
+    "transformers": "4.51.3",
+    "peft": "0.15.2",
+    "llamafactory": "0.9.3"
+  },
+  "python": "3.11.16",
+  "tokenizer_asset_sha256": {
+    "config.json": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+    "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+    "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+  },
+  "framework_source_sha256": {
+    "SharegptDatasetConverter": "3d88c71bb6bfe00bb511bf44c15dce09cded6a4837ade486e9983ae639d4688d",
+    "SupervisedDatasetProcessor": "2741445b4da5a699246af4ab35dd05b0d6dd970bc77c6e6b33c333d6ad82ae53"
+  },
+  "supervision": {
+    "template": "qwen",
+    "cutoff_len": 4096,
+    "train_on_prompt": false,
+    "mask_history": false,
+    "packing": false
+  },
+  "ordered_records_sha256": "3b0a6ffb77c947d897ab9c5123b4991926d70c98cf00d634447c45249c1363ec",
+  "files_sha256": {
+    "records.jsonl": "9f8e99bd2f8af05da6e0924f0b8c1924f7677027da86b19811693f8d044a0ce9",
+    "review-episodes.json": "4f321e1c225d5c914e33fd1b199a4bddcc3039a37b98704f87530739300a6776",
+    "review-pairs.json": "d679da6a34456c1c21b4f87fa8f317de6e40d3599ab303aa5991a8053e81b50f",
+    "review.md": "2fbd229548238f52e379a514c073a172893105bb9f83422368f006ef83b6c0d7",
+    "review.html": "8c90bcacb84daecf6f12775d06ad721634fb212d16cf0efa944c51f4bca4451d"
+  },
+  "max_tokens": 2188,
+  "assistant_turns": 5202,
+  "all_rows_untruncated": true,
+  "all_assistant_turns_supervised": true,
+  "real_tokenizer_audited": true,
+  "sample_pairs": 60,
+  "sample_rows": 120,
+  "sample_review": "pending",
+  "ready_for_training": false,
+  "training_started": false,
+  "model_weights_loaded": false,
+  "cuda_initialized": false,
+  "old_final_test_read": false
+}

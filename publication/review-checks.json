@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "source_files_reviewed": 1197,
+  "text_files_pattern_scanned": 1196,
+  "credential_pattern_candidates": [],
+  "cpu_demo_tests": 20,
+  "public_entry_tests": 2,
+  "http_loopback_test_passed": true,
+  "local_test_python": "3.13.9",
+  "fresh_zip_short_path_cpu_tests_passed": true,
+  "windows_short_checkout_path_required": true,
+  "linux_gpu_environment_reinstalled": false,
+  "v6_frozen_episodes_reproduced": 320,
+  "original_frozen_scores": {
+    "exact_create_recovery_v1.6": 154,
+    "trusted_completion_v1.7": 160
+  },
+  "model_loaded": false,
+  "gpu_started": false,
+  "training_started": false,
+  "live_tools_executed": 0,
+  "github_pushed": false,
+  "scope": "Publication preparation, CPU tests and original scorer reproduction; not new model acceptance"
+}

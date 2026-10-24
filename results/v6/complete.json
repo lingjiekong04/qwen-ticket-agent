@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "stage": "one_shot_independent_final_holdout_v6_complete",
+  "episodes": 320,
+  "physical_gpu": "0",
+  "comparison_sha256": "14ef97845d4d9dc9b5e8e74bbb9b47808f20755c4efdc8901dc6c2c5417fb037",
+  "removed_distributed_environment_keys": [],
+  "formal_blind_acceptance": "passed",
+  "usable_candidate_level": true,
+  "holdout_acceptance_consumed": true,
+  "semantic_review": "pending",
+  "training_started": false,
+  "live_tools_executed": 0,
+  "deployment_authorized": false
+}

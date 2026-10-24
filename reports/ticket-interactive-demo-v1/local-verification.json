@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "stage": "CPU_interactive_demo_transport_runtime_session_verification",
+  "tests_run": 20,
+  "provider": "scripted",
+  "runtime": "trusted_completion_v1.7",
+  "model_loaded": false,
+  "gpu_initialized": false,
+  "live_tools_executed": 0,
+  "real_model_interactive_validation": "pending_server_startup",
+  "bindings_sha256": "49a65b929a2d5eddb95eaf615e998f72c68bd625590853c53c7a94c74e99e4c1"
+}

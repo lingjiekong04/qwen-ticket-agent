@@ -1,0 +1,20 @@
+{
+  "release_id": "ticket-runtime-offline-rc-v1",
+  "status": "frozen_offline_integration_candidate",
+  "runtime_revision": "trusted_completion_v1.7",
+  "rollback_target": "manual_safe_stop_v1",
+  "files_sha256": {
+    "configs/ticket_runtime_offline_rc_v1.json": "b97bf95b2d5595b9631d29584f8e1772350806d276b6e9b45a5d8ef62ed2389d",
+    "data/ticket_runtime_offline_rc_v1/acceptance-scenarios.json": "0fced265b75896f7347c01ce30635c4a4cf15bc8a3d18d1994da1e20edebcfe2",
+    "extensions/ticket_runtime_offline_rc_v1/core.py": "ddf35d4dfb02ca8edf116669e05daf1198933d2f01923734c5e9ee4f7981a0f3",
+    "extensions/ticket_runtime_trusted_completion_v1_7/core.py": "aa225d09730513280b433e6ea5b45e97d0f9dc4f926095b5ea719247d7309043",
+    "reports/ticket-runtime-offline-rc-v1/acceptance.json": "61abfbff056a79ace657fa358565415c6c213791a7179936606d565080982260",
+    "reports/ticket-runtime-offline-rc-v1/report.md": "22589e52db5b19b1509ff8d42fdfd2ad214490b078f1115d7747d58902dddee3",
+    "reports/ticket-runtime-offline-rc-v1/rollback.md": "bad44ce80dc6c643762e8e667d37f4e6d2c200861521ae89177f8121a8acb929",
+    "reports/ticket-runtime-prospective-blind-v6-semantic-review-v1/summary.json": "07f623d1826e1a509a8eee01d28630f3d0118bd4b0289007b4ebd98892a51ba2"
+  },
+  "model_weights_in_archive": false,
+  "live_backend_connector_in_archive": false,
+  "live_tools_executed": 0,
+  "deployment_authorized": false
+}

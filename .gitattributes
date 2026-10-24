@@ -1,0 +1,5 @@
+# Frozen hashes require exact bytes; disable checkout/add line-ending conversion.
+* -text
+*.png binary
+*.jpg binary
+*.pdf binary

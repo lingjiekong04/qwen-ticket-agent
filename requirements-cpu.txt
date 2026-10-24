@@ -1,0 +1,2 @@
+# CPU simulated backend, smoke tests and frozen score reproduction only.
+jsonschema==4.25.0

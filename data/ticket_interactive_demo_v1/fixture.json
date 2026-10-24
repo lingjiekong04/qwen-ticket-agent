@@ -1,0 +1,20 @@
+{
+  "tickets": [
+    {"ticket_id":"DEMO-T101","title":"VPN connection failure","description":"Office laptop cannot connect to VPN","priority":"normal","requester_id":"DEMO-U01","assignee_id":null,"status":"open","version":1},
+    {"ticket_id":"DEMO-T102","title":"Printer queue stuck","description":"Finance printer is not printing","priority":"high","requester_id":"DEMO-U02","assignee_id":"DEMO-A01","status":"in_progress","version":3},
+    {"ticket_id":"DEMO-T103","title":"VPN old resolved incident","description":"Previous VPN certificate issue","priority":"low","requester_id":"DEMO-U02","assignee_id":"DEMO-A02","status":"resolved","version":5}
+  ],
+  "users": [
+    {"user_id":"DEMO-U01","email":"lin@demo.invalid","name":"林同学"},
+    {"user_id":"DEMO-U02","email":"chen@demo.invalid","name":"陈同学"}
+  ],
+  "agents": [
+    {"agent_id":"DEMO-A01","name":"桌面支持"},
+    {"agent_id":"DEMO-A02","name":"网络支持"}
+  ],
+  "articles": [
+    {"article_id":"DEMO-KB01","title":"VPN 网络连接排查","content":"先检查本机网络，再检查 VPN 配置；保留错误码并联系网络支持。"},
+    {"article_id":"DEMO-KB02","title":"VPN 证书检查","content":"核对证书有效期，按批准流程更新证书；不要关闭证书校验。"},
+    {"article_id":"DEMO-KB03","title":"打印机队列恢复","content":"记录打印机型号与队列状态，按批准流程清理卡住的作业。"}
+  ]
+}

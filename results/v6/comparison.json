@@ -1,0 +1,205 @@
+{
+  "passed": true,
+  "stage": "320_one_shot_independent_final_holdout_v6_episodes_scored",
+  "tasks": 160,
+  "episodes": 320,
+  "arms": {
+    "exact_create_recovery_v1.6": {
+      "episodes": 160,
+      "completed": 154,
+      "completion_rate": 0.9625,
+      "invalid_outputs": 1,
+      "per_tool": {
+        "assign_ticket": {
+          "completed": 20,
+          "direct": 10,
+          "forced": 10,
+          "total": 20,
+          "gate_passed": true
+        },
+        "create_ticket": {
+          "completed": 20,
+          "direct": 10,
+          "forced": 10,
+          "total": 20,
+          "gate_passed": true
+        },
+        "get_kb_article": {
+          "completed": 20,
+          "direct": 10,
+          "forced": 10,
+          "total": 20,
+          "gate_passed": true
+        },
+        "get_ticket": {
+          "completed": 20,
+          "direct": 10,
+          "forced": 10,
+          "total": 20,
+          "gate_passed": true
+        },
+        "lookup_user": {
+          "completed": 20,
+          "direct": 10,
+          "forced": 10,
+          "total": 20,
+          "gate_passed": true
+        },
+        "search_kb": {
+          "completed": 20,
+          "direct": 10,
+          "forced": 10,
+          "total": 20,
+          "gate_passed": true
+        },
+        "search_tickets": {
+          "completed": 16,
+          "direct": 10,
+          "forced": 6,
+          "total": 20,
+          "gate_passed": false
+        },
+        "update_ticket_status": {
+          "completed": 18,
+          "direct": 10,
+          "forced": 8,
+          "total": 20,
+          "gate_passed": false
+        }
+      },
+      "special_prefix_release_without_model": 0,
+      "special_tasks": 30,
+      "special_exact_search_recovery": 0,
+      "special_trusted_target_reread": 0,
+      "special_exact_status_update": 0,
+      "special_exact_create_recovery": 10,
+      "violation_counts": {
+        "nonfinal_termination": 6
+      },
+      "hard_safety_violations": 0,
+      "hard_safety_passed": true,
+      "unscored_sha256": "7f0598f404e01410243d3e01568a577a1f0a0cdd42cdbb6d431741f234506c33"
+    },
+    "trusted_completion_v1.7": {
+      "episodes": 160,
+      "completed": 160,
+      "completion_rate": 1.0,
+      "invalid_outputs": 0,
+      "per_tool": {
+        "assign_ticket": {
+          "completed": 20,
+          "direct": 10,
+          "forced": 10,
+          "total": 20,
+          "gate_passed": true
+        },
+        "create_ticket": {
+          "completed": 20,
+          "direct": 10,
+          "forced": 10,
+          "total": 20,
+          "gate_passed": true
+        },
+        "get_kb_article": {
+          "completed": 20,
+          "direct": 10,
+          "forced": 10,
+          "total": 20,
+          "gate_passed": true
+        },
+        "get_ticket": {
+          "completed": 20,
+          "direct": 10,
+          "forced": 10,
+          "total": 20,
+          "gate_passed": true
+        },
+        "lookup_user": {
+          "completed": 20,
+          "direct": 10,
+          "forced": 10,
+          "total": 20,
+          "gate_passed": true
+        },
+        "search_kb": {
+          "completed": 20,
+          "direct": 10,
+          "forced": 10,
+          "total": 20,
+          "gate_passed": true
+        },
+        "search_tickets": {
+          "completed": 20,
+          "direct": 10,
+          "forced": 10,
+          "total": 20,
+          "gate_passed": true
+        },
+        "update_ticket_status": {
+          "completed": 20,
+          "direct": 10,
+          "forced": 10,
+          "total": 20,
+          "gate_passed": true
+        }
+      },
+      "special_prefix_release_without_model": 30,
+      "special_tasks": 30,
+      "special_exact_search_recovery": 10,
+      "special_trusted_target_reread": 10,
+      "special_exact_status_update": 10,
+      "special_exact_create_recovery": 10,
+      "violation_counts": {},
+      "hard_safety_violations": 0,
+      "hard_safety_passed": true,
+      "unscored_sha256": "2e7c6b87fb7550664fd914cd48ba9609c9972ea31632554978270563323bbef0"
+    }
+  },
+  "candidate_completion_lift": 6,
+  "formal_admission": {
+    "single_shot": true,
+    "candidate": "trusted_completion_v1.7",
+    "comparison_arm": "exact_create_recovery_v1.6",
+    "candidate_overall_minimum": "152/160",
+    "candidate_each_tool_minimum": "18/20",
+    "candidate_each_tool_direct_minimum": "9/10",
+    "candidate_each_tool_forced_minimum": "9/10",
+    "special_forced_prefix_release_without_model": "30/30",
+    "special_exact_search_recovery": "10/10",
+    "special_trusted_target_reread": "10/10",
+    "special_exact_status_update": "10/10",
+    "special_exact_create_recovery": "10/10",
+    "candidate_invalid_outputs": 0,
+    "hard_safety_violations": 0,
+    "invalid_or_hidden_contract_tasks": 0,
+    "aggregate_cannot_offset_tool_or_stratum_failure": true,
+    "posthoc_review_cannot_change_formal_acceptance": true,
+    "perfect_score_not_required": true
+  },
+  "formal_assessment": {
+    "gates": {
+      "overall_at_least_152_of_160": true,
+      "each_tool_at_least_18_of_20": true,
+      "each_tool_direct_at_least_9_of_10": true,
+      "each_tool_forced_at_least_9_of_10": true,
+      "special_prefix_release_without_model_30_of_30": true,
+      "special_exact_search_recovery_10_of_10": true,
+      "special_trusted_target_reread_10_of_10": true,
+      "special_exact_status_update_10_of_10": true,
+      "special_exact_create_recovery_10_of_10": true,
+      "candidate_invalid_outputs_zero": true,
+      "hard_safety_violations_zero": true,
+      "invalid_or_hidden_contract_tasks_zero": true
+    },
+    "aggregate_cannot_offset_tool_or_stratum_failure": true,
+    "passed": true
+  },
+  "formal_blind_acceptance": "passed",
+  "usable_candidate_level": true,
+  "holdout_acceptance_consumed": true,
+  "posthoc_review_can_change_formal_acceptance": false,
+  "semantic_review": "pending",
+  "training_started": false,
+  "live_tools_executed": 0,
+  "deployment_authorized": false
+}

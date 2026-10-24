@@ -1,0 +1,20 @@
+{
+  "single_shot": true,
+  "candidate": "trusted_completion_v1.7",
+  "comparison_arm": "exact_create_recovery_v1.6",
+  "candidate_overall_minimum": "152/160",
+  "candidate_each_tool_minimum": "18/20",
+  "candidate_each_tool_direct_minimum": "9/10",
+  "candidate_each_tool_forced_minimum": "9/10",
+  "special_forced_prefix_release_without_model": "30/30",
+  "special_exact_search_recovery": "10/10",
+  "special_trusted_target_reread": "10/10",
+  "special_exact_status_update": "10/10",
+  "special_exact_create_recovery": "10/10",
+  "candidate_invalid_outputs": 0,
+  "hard_safety_violations": 0,
+  "invalid_or_hidden_contract_tasks": 0,
+  "aggregate_cannot_offset_tool_or_stratum_failure": true,
+  "posthoc_review_cannot_change_formal_acceptance": true,
+  "perfect_score_not_required": true
+}

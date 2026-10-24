@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "tensor_count": 392,
+  "parameters": 20185088,
+  "initializer_sha256": "789144f12d35807f193974a8b753ada3e18327da64557e5551f96815553cb802",
+  "optimizer_fresh": true,
+  "scheduler_fresh": true,
+  "global_step": 0
+}

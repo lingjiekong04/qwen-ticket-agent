@@ -1,0 +1,37 @@
+{
+  "revision": "v6",
+  "seed": 2026102207,
+  "tasks": 160,
+  "candidate_selected": "trusted_completion_v1.7",
+  "accepted_semantic_review_sha256": "941e931940b43eb89dfc9a0db2653248d651fd279367dc1a5ae733b4ee3009ac",
+  "accepted_semantic_review_archive_sha256": "5f25e86ead04a99acef23d0cb18207a4f90fe4f4abac3c4844f56216346299f7",
+  "files_sha256": {
+    "tasks.json": "3fc6ce390f28538a3d3d3d078e25093d5b4201bca8101093f9caedf5f43c2a94",
+    "oracle.json": "faafa08a1abb52281c952b797b28cb696417157d5b3e7924af53d6be392907a5",
+    "admission.json": "159a978dff23de216f9cadfa13c00fb73aa9446f4f7a4c256b2f2caa338519a6",
+    "isolation.json": "a2fa5ebae4525f1a66444788eddc0434a5cb63f3077ed78d98533502223408d1"
+  },
+  "runtime_sources_sha256": {
+    "extensions/ticket_runtime_contract_guard_v1_1/core.py": "db9630c246662baea0b3a81c342475142f88ddb0c4971681e8f61ba89c0f4260",
+    "extensions/ticket_runtime_contract_guard_integration_v1/core.py": "bfde04bfcbd53e627f555a816de6d04e91315d57494fc65da9383ee6af8f00b3",
+    "extensions/ticket_runtime_exact_create_recovery_v1_6/core.py": "35e16bff1f9c763703bfab2cb07ecc694b9073ddf1cd24665879c9ac7733f580",
+    "extensions/ticket_runtime_trusted_completion_v1_7/core.py": "aa225d09730513280b433e6ea5b45e97d0f9dc4f926095b5ea719247d7309043"
+  },
+  "simulation": {
+    "special_forced_tasks": 30,
+    "completed": 30,
+    "prefix_released_without_model": 30,
+    "exact_search_recoveries": 10,
+    "trusted_target_reread_and_exact_updates": 10,
+    "exact_create_recoveries": 10,
+    "invalid_outputs": 0,
+    "unsafe_calls_reached_backend": 0,
+    "records_sha256": "b438464af79d1b48f0c4e680d7ca9d961ad683d06ed7852c7334eb6680a8d9f0"
+  },
+  "holdout_acceptance_consumed": false,
+  "model_evaluated": false,
+  "training_started": false,
+  "gpu_inference_started": false,
+  "live_tools_executed": 0,
+  "deployment_authorized": false
+}
