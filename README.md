@@ -91,6 +91,7 @@ third_party/      第三方许可证副本
 
 ## 文档与许可
 
+- [项目技术报告 PDF](docs/qwen-ticket-agent-project-report.pdf)
 - [启动与演示](docs/QUICKSTART.md)
 - [结果和边界](docs/EVALUATION.md)
 - [训练配方与权重/数据交付](docs/TRAINING_AND_ASSETS.md)

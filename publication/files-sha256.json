@@ -4,6 +4,9 @@
     ".gitattributes": "bf3a26d9fa4a0e73c92bd3aef618a174006ad74cfed5470be9f046a398aafb85",
     ".github/workflows/cpu.yml": "631848a89417aeafee423e3adfee42415a0b9a36141c0efe7a0147053c7d6ece",
     ".gitignore": "a380cae69095a70fc99ae5cb4e2c1ef6ecbcdcf7bbd31cff255e141f200de361",
+    "LICENSE": "50e6751797c50dedd75ef1b8a0d9e42f5f8472e9fbce91f34718e9f97b0c780a",
+    "README.md": "34cbeb9a55cba2c28fe6ef2f335b817f2991e65395a6d503509e11be641edce8",
+    "THIRD_PARTY_NOTICES.md": "bf6366ed5851a13d83a959c3084bd5468f1919f6c1d439e879c1e8fe782c0415",
     "configs/ticket_interactive_demo_v1.json": "f5049fbf29bc8c4c856bb66d078452253987d9bf9bddd30294e460aab529be0c",
     "configs/ticket_policy_retention_train_v1_2.yaml": "1e81cffc0ef3602d04819a7e0ffbde7a788935da75e630263cec2b51b2eac069",
     "constraints.txt": "0c2fe1cf98d68a40c3e7682d223edcfe86c893e62974d6caa70a8bbec9829103",
@@ -22,6 +25,7 @@
     "docs/PUBLICATION.md": "0f507071ed8e284303b8a028cb293b080a013eff25437e081d2d4050a62aa6e0",
     "docs/QUICKSTART.md": "4eb8bd82012335349e4c5103f2146a89330046ef5bdd6664ed9e745287f1e648",
     "docs/TRAINING_AND_ASSETS.md": "b57c9db3165fc80aa269931f528d0ebd68db25674f235b86e9a56a31cf6647b4",
+    "docs/qwen-ticket-agent-project-report.pdf": "529a6e667109ff3ecff76d4a777651ba3bfd82f66dc1eb157f68aa373864a294",
     "extensions/ticket_agent_v1/ticket_env.py": "1f58a8546fd52207a3b70836f8c532dafbec55e5cdb18c0a5c2fd5728e0f368a",
     "extensions/ticket_agent_v2/agent.py": "8c1c8acc845d29f4588768a074e964f714eca64c019e2b6a6ba748962022eba8",
     "extensions/ticket_interactive_demo_v1/__init__.py": "89e5f8e2a65d0ded923ee77bd136122f4257e49bab60b2ff30bb43eeb23d628e",
@@ -140,10 +144,8 @@
     "extensions/ticket_training_v1_1/train.py": "4c522614b8fd8a401a3941140b25359692ead02f117d3e8c1bfb3933bb4bbc22",
     "extensions/ticket_training_v1_2/__init__.py": "d29c0ac5027c7d74af51a793a36aaa5364310da7eb6096950fd67305e1834fb2",
     "extensions/ticket_training_v1_2/support.py": "5f376982606225c5348c89eeffdbac8db92f968ff14dba0265421675f612a187",
-    "LICENSE": "50e6751797c50dedd75ef1b8a0d9e42f5f8472e9fbce91f34718e9f97b0c780a",
     "publication/review-checks.json": "b187c548d8c6e8f76ed5baee7e1c94cc7811a40b3b54a29a01f6e498134ccca5",
     "publication/source-provenance.json": "940718ed5ed2493f787272ec446daea858771be31304fd8a0baac29107728dd1",
-    "README.md": "744cfbf87521abd5e2ed0498745cc0efa6aab61a6da7560b68365f7e775f9a7e",
     "reports/ticket-interactive-demo-v1/handoff.md": "194a1465e040e5b8fa50e5caff5388271be67f7019e479ae132ccb76ac72e436",
     "reports/ticket-interactive-demo-v1/local-verification.json": "255a0ebeb2522acdc0095084da3c214d3f9c5e30eb4cad597eebf31e39e15b30",
     "reports/ticket-runtime-offline-rc-v1/acceptance.json": "61abfbff056a79ace657fa358565415c6c213791a7179936606d565080982260",
@@ -222,8 +224,7 @@
     "tests/test_ticket_policy_retention_training_v1_1.py": "d4f2d59739bcda48cf63d51c11b87bfcf2be3380a0e8a4012137bd87f90b3b1a",
     "tests/test_ticket_policy_retention_training_v1_2.py": "d33cc4c7055f4c0bed394fe360da208abb2209d51ea8fadba01ba05245c820fb",
     "tests/test_ticket_policy_retention_upload_review_v1.py": "edb3472f1cfc9d4dd8848f105cb871263a0e48174f708f0d105c325f9862c35e",
-    "third_party/LLaMA-Factory-LICENSE": "50e6751797c50dedd75ef1b8a0d9e42f5f8472e9fbce91f34718e9f97b0c780a",
-    "THIRD_PARTY_NOTICES.md": "bf6366ed5851a13d83a959c3084bd5468f1919f6c1d439e879c1e8fe782c0415"
+    "third_party/LLaMA-Factory-LICENSE": "50e6751797c50dedd75ef1b8a0d9e42f5f8472e9fbce91f34718e9f97b0c780a"
   },
   "manifest_itself_excluded": true
 }
